@@ -1,12 +1,14 @@
 {
-  "name": "netcheck-tmp",
+  "name": "netcheck",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate-data": "node scripts/validate-data.mjs",
+    "prebuild": "node scripts/validate-data.mjs"
   },
   "dependencies": {
     "next": "16.4.6",
