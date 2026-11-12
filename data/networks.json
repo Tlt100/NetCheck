@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "horizon-omnia",
+    "insurerId": "horizon",
+    "name": "OMNIA",
+    "tiered": true,
+    "sourceId": "horizon-omnia-explainer",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-advantage-epo",
+    "insurerId": "horizon",
+    "name": "Advantage EPO",
+    "tiered": null,
+    "sourceId": "horizon-doctor-hospital-finder",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "amerihealth-regional-preferred",
+    "insurerId": "amerihealth",
+    "name": "Regional Preferred",
+    "tiered": false,
+    "sourceId": "amerihealth-compare-plans-2027",
+    "lastChecked": "2026-11-12"
+  }
+]

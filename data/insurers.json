@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "horizon",
+    "name": "Horizon Blue Cross Blue Shield of New Jersey",
+    "legalName": "Horizon Healthcare Services, Inc.",
+    "sourceId": "dobi-ihc-rates-2027"
+  },
+  {
+    "id": "amerihealth",
+    "name": "AmeriHealth New Jersey",
+    "legalName": "AmeriHealth Insurance Company of NJ, Inc.",
+    "sourceId": "dobi-ihc-rates-2027"
+  }
+]

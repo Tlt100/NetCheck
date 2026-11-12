@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "horizon-omnia-bronze-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-omnia",
+    "marketingName": "OMNIA Bronze",
+    "planType": "EPO",
+    "metalLevel": "Bronze",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-omnia-silver-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-omnia",
+    "marketingName": "OMNIA Silver",
+    "planType": "EPO",
+    "metalLevel": "Silver",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-omnia-silver-hsa-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-omnia",
+    "marketingName": "OMNIA Silver HSA",
+    "planType": "EPO",
+    "metalLevel": "Silver",
+    "hsaEligible": true,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-omnia-gold-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-omnia",
+    "marketingName": "OMNIA Gold",
+    "planType": "EPO",
+    "metalLevel": "Gold",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-advantage-epo-bronze-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-advantage-epo",
+    "marketingName": "Horizon Advantage EPO Bronze",
+    "planType": "EPO",
+    "metalLevel": "Bronze",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "horizon-advantage-epo-silver-2027",
+    "insurerId": "horizon",
+    "networkId": "horizon-advantage-epo",
+    "marketingName": "Horizon Advantage EPO Silver",
+    "planType": "EPO",
+    "metalLevel": "Silver",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "amerihealth-silver-epo-hsa-regional-preferred-50-75-2027",
+    "insurerId": "amerihealth",
+    "networkId": "amerihealth-regional-preferred",
+    "marketingName": "IHC Silver EPO HSA Regional Preferred $50/$75",
+    "planType": "EPO",
+    "metalLevel": "Silver",
+    "hsaEligible": true,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  },
+  {
+    "id": "amerihealth-gold-epo-regional-preferred-30-50-2027",
+    "insurerId": "amerihealth",
+    "networkId": "amerihealth-regional-preferred",
+    "marketingName": "IHC Gold EPO Regional Preferred $30/$50",
+    "planType": "EPO",
+    "metalLevel": "Gold",
+    "hsaEligible": false,
+    "planYear": 2027,
+    "countiesOffered": [
+      "Middlesex",
+      "Mercer"
+    ],
+    "sourceId": "dobi-ihc-rates-2027",
+    "lastChecked": "2026-11-12"
+  }
+]

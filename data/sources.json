@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "cms-hospital-general-information",
+    "type": "cms",
+    "title": "Hospital General Information",
+    "publisher": "Centers for Medicare & Medicaid Services, Provider Data Catalog",
+    "url": "https://data.cms.gov/provider-data/dataset/xubh-q36u",
+    "retrievedOn": "2026-11-12",
+    "note": "Dataset last modified 2026-10-26. Used for hospital names, addresses, counties and CMS Certification Numbers. All 61 New Jersey hospitals of type \"Acute Care Hospitals\" are included."
+  },
+  {
+    "id": "census-geocoder",
+    "type": "census",
+    "title": "Census Geocoder (Public_AR_Current benchmark)",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://geocoding.geo.census.gov/geocoder/",
+    "retrievedOn": "2026-11-12",
+    "note": "Hospital coordinates from the CMS street address."
+  },
+  {
+    "id": "openstreetmap-nominatim",
+    "type": "openstreetmap",
+    "title": "Nominatim search",
+    "publisher": "OpenStreetMap contributors",
+    "url": "https://nominatim.openstreetmap.org/",
+    "retrievedOn": "2026-11-12",
+    "note": "Used for the 10 hospitals whose CMS address the Census Geocoder could not match. Each result was checked to be a hospital at the CMS street address or in the CMS city. Data (c) OpenStreetMap contributors, ODbL."
+  },
+  {
+    "id": "census-zcta-gazetteer-2024",
+    "type": "census",
+    "title": "2024 Gazetteer Files: ZIP Code Tabulation Areas",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html",
+    "retrievedOn": "2026-11-12",
+    "note": "ZIP centroids are ZCTA internal points. ZIP codes with no ZCTA (for example PO-box-only ZIPs) are not included."
+  },
+  {
+    "id": "census-zcta-county-2020",
+    "type": "census",
+    "title": "2020 ZCTA to County Relationship File",
+    "publisher": "U.S. Census Bureau",
+    "url": "https://www.census.gov/geographies/reference-files/time-series/geo/relationship-files.2020.html",
+    "retrievedOn": "2026-11-12",
+    "note": "Each ZCTA is assigned to the county holding the largest share of its land area."
+  },
+  {
+    "id": "dobi-ihc-rates-2027",
+    "type": "regulator",
+    "title": "2027 New Jersey Individual Health Benefits Plans and Rates, effective 01/01/2027 - 12/31/2027",
+    "publisher": "New Jersey Department of Banking and Insurance",
+    "url": "https://www.nj.gov/dobi/division_insurance/ihcseh/ihcrates2027.pdf",
+    "retrievedOn": "2026-11-12",
+    "note": "Used for plan names, carrier, plan type, metal level, HSA compatibility (footnote 7) and marketplace availability. Plans marked with footnote 8 (\"not available in all counties\") are left out; the plans included here carry no such footnote."
+  },
+  {
+    "id": "horizon-omnia-explainer",
+    "type": "insurer-plan-document",
+    "title": "Understanding Your OMNIA Health Plan",
+    "publisher": "Horizon Blue Cross Blue Shield of New Jersey",
+    "url": "https://www.horizonblue.com/members/education-center/understanding-your-coverage/understanding-your-omnia-health-plan",
+    "retrievedOn": "2026-11-12",
+    "note": "States that OMNIA doctors and hospitals are grouped into Tier 1 and Tier 2 and that both tiers are in network."
+  },
+  {
+    "id": "horizon-doctor-hospital-finder",
+    "type": "insurer-directory",
+    "title": "Doctor & Hospital Finder",
+    "publisher": "Horizon Blue Cross Blue Shield of New Jersey",
+    "url": "https://www.horizonblue.com/doctorfinder",
+    "retrievedOn": "2026-11-12",
+    "note": "Lists \"ADVANTAGE EPO\" as a selectable plan network. No hospital statuses have been taken from it yet."
+  },
+  {
+    "id": "amerihealth-compare-plans-2027",
+    "type": "insurer-plan-document",
+    "title": "NJ health insurance plan comparison",
+    "publisher": "AmeriHealth",
+    "url": "https://www.amerihealth.com/explore-plans/individuals-and-families/health-plans/nj/compare-plans.html",
+    "retrievedOn": "2026-11-12",
+    "note": "Regional Preferred plans are listed without tiered cost sharing; AmeriHealth Advantage and Hospital Advantage plans show Tier 1 and Tier 2."
+  }
+]

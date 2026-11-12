@@ -1,1 +1,408 @@
-[]
+[
+  {
+    "zip": "07001",
+    "county": "Middlesex",
+    "lat": 40.58396,
+    "lon": -74.2697,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07008",
+    "county": "Middlesex",
+    "lat": 40.58379,
+    "lon": -74.22746,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07064",
+    "county": "Middlesex",
+    "lat": 40.56742,
+    "lon": -74.24493,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07067",
+    "county": "Middlesex",
+    "lat": 40.58933,
+    "lon": -74.31141,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07077",
+    "county": "Middlesex",
+    "lat": 40.55415,
+    "lon": -74.25306,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07080",
+    "county": "Middlesex",
+    "lat": 40.57441,
+    "lon": -74.4148,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07095",
+    "county": "Middlesex",
+    "lat": 40.55286,
+    "lon": -74.28694,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "07747",
+    "county": "Middlesex",
+    "lat": 40.41325,
+    "lon": -74.25767,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08512",
+    "county": "Middlesex",
+    "lat": 40.32436,
+    "lon": -74.52553,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08520",
+    "county": "Mercer",
+    "lat": 40.25813,
+    "lon": -74.53931,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08525",
+    "county": "Mercer",
+    "lat": 40.39772,
+    "lon": -74.77952,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08534",
+    "county": "Mercer",
+    "lat": 40.32942,
+    "lon": -74.79279,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08536",
+    "county": "Middlesex",
+    "lat": 40.33308,
+    "lon": -74.58663,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08540",
+    "county": "Mercer",
+    "lat": 40.36473,
+    "lon": -74.65631,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08542",
+    "county": "Mercer",
+    "lat": 40.35452,
+    "lon": -74.66056,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08544",
+    "county": "Mercer",
+    "lat": 40.34649,
+    "lon": -74.65785,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08550",
+    "county": "Mercer",
+    "lat": 40.27995,
+    "lon": -74.62212,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08560",
+    "county": "Mercer",
+    "lat": 40.31549,
+    "lon": -74.85702,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08561",
+    "county": "Mercer",
+    "lat": 40.2474,
+    "lon": -74.58133,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08608",
+    "county": "Mercer",
+    "lat": 40.21908,
+    "lon": -74.76684,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08609",
+    "county": "Mercer",
+    "lat": 40.22575,
+    "lon": -74.74091,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08610",
+    "county": "Mercer",
+    "lat": 40.19364,
+    "lon": -74.71596,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08611",
+    "county": "Mercer",
+    "lat": 40.18362,
+    "lon": -74.74032,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08618",
+    "county": "Mercer",
+    "lat": 40.24934,
+    "lon": -74.78997,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08619",
+    "county": "Mercer",
+    "lat": 40.2423,
+    "lon": -74.69641,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08620",
+    "county": "Mercer",
+    "lat": 40.17009,
+    "lon": -74.65131,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08628",
+    "county": "Mercer",
+    "lat": 40.26442,
+    "lon": -74.82705,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08629",
+    "county": "Mercer",
+    "lat": 40.22064,
+    "lon": -74.73125,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08638",
+    "county": "Mercer",
+    "lat": 40.25402,
+    "lon": -74.76338,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08648",
+    "county": "Mercer",
+    "lat": 40.28449,
+    "lon": -74.71749,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08690",
+    "county": "Mercer",
+    "lat": 40.22583,
+    "lon": -74.6601,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08691",
+    "county": "Mercer",
+    "lat": 40.20832,
+    "lon": -74.60093,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08810",
+    "county": "Middlesex",
+    "lat": 40.36829,
+    "lon": -74.491,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08816",
+    "county": "Middlesex",
+    "lat": 40.42912,
+    "lon": -74.41629,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08817",
+    "county": "Middlesex",
+    "lat": 40.51465,
+    "lon": -74.3931,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08820",
+    "county": "Middlesex",
+    "lat": 40.57681,
+    "lon": -74.36575,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08824",
+    "county": "Middlesex",
+    "lat": 40.42073,
+    "lon": -74.55346,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08828",
+    "county": "Middlesex",
+    "lat": 40.37842,
+    "lon": -74.42338,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08830",
+    "county": "Middlesex",
+    "lat": 40.57014,
+    "lon": -74.31637,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08831",
+    "county": "Middlesex",
+    "lat": 40.33434,
+    "lon": -74.4325,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08832",
+    "county": "Middlesex",
+    "lat": 40.5114,
+    "lon": -74.3185,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08837",
+    "county": "Middlesex",
+    "lat": 40.51428,
+    "lon": -74.34386,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08840",
+    "county": "Middlesex",
+    "lat": 40.54314,
+    "lon": -74.35898,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08846",
+    "county": "Middlesex",
+    "lat": 40.57463,
+    "lon": -74.49826,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08850",
+    "county": "Middlesex",
+    "lat": 40.44915,
+    "lon": -74.44031,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08852",
+    "county": "Middlesex",
+    "lat": 40.38991,
+    "lon": -74.54409,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08854",
+    "county": "Middlesex",
+    "lat": 40.53966,
+    "lon": -74.46279,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08857",
+    "county": "Middlesex",
+    "lat": 40.39279,
+    "lon": -74.3304,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08859",
+    "county": "Middlesex",
+    "lat": 40.45817,
+    "lon": -74.3038,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08861",
+    "county": "Middlesex",
+    "lat": 40.52049,
+    "lon": -74.27294,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08863",
+    "county": "Middlesex",
+    "lat": 40.53724,
+    "lon": -74.31222,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08872",
+    "county": "Middlesex",
+    "lat": 40.45574,
+    "lon": -74.35147,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08879",
+    "county": "Middlesex",
+    "lat": 40.46641,
+    "lon": -74.27863,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08882",
+    "county": "Middlesex",
+    "lat": 40.44565,
+    "lon": -74.37846,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08884",
+    "county": "Middlesex",
+    "lat": 40.39361,
+    "lon": -74.39274,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08901",
+    "county": "Middlesex",
+    "lat": 40.48364,
+    "lon": -74.44246,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08902",
+    "county": "Middlesex",
+    "lat": 40.44151,
+    "lon": -74.49121,
+    "sourceId": "census-zcta-gazetteer-2024"
+  },
+  {
+    "zip": "08904",
+    "county": "Middlesex",
+    "lat": 40.50079,
+    "lon": -74.42791,
+    "sourceId": "census-zcta-gazetteer-2024"
+  }
+]

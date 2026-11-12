@@ -70,7 +70,8 @@ for (const i of insurers) needSource("insurers", i.id, i.sourceId);
 
 for (const n of networks) {
   if (!insurerIds.has(n.insurerId)) fail("networks", n.id, "unknown insurerId");
-  if (typeof n.tiered !== "boolean") fail("networks", n.id, "tiered must be true/false");
+  if (typeof n.tiered !== "boolean" && n.tiered !== null)
+    fail("networks", n.id, "tiered must be true, false, or null (not yet confirmed)");
   needSource("networks", n.id, n.sourceId);
   needDate("networks", n.id, "lastChecked", n.lastChecked);
 }
@@ -115,7 +116,7 @@ for (const s of statuses) {
   if (!hospitalIds.has(s.hospitalId)) fail("network-status", key, "unknown hospitalId");
   if (!STATUS_VALUES.includes(s.status))
     fail("network-status", key, 'status must be "in-network" or "out-of-network"; leave the record out if unknown');
-  if (s.tier && network && !network.tiered)
+  if (s.tier && network && network.tiered !== true)
     fail("network-status", key, "tier set on a network that is not tiered");
   if (s.tier && s.status !== "in-network")
     fail("network-status", key, "tier only applies to in-network records");

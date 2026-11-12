@@ -30,7 +30,8 @@ export type SourceType =
   | "regulator" // NJ Department of Banking and Insurance
   | "insurer-plan-document" // SBC, brochure, or plan page
   | "cms" // CMS Provider Data Catalog
-  | "census"; // Census Bureau gazetteer / geocoder
+  | "census" // Census Bureau gazetteer / geocoder
+  | "openstreetmap"; // fallback geocoding only
 
 export interface Source {
   id: string;
@@ -45,7 +46,10 @@ export interface Source {
 
 export interface Insurer {
   id: string;
+  /** Consumer-facing name. */
   name: string;
+  /** Carrier name as filed with the regulator. */
+  legalName?: string;
   sourceId: string;
 }
 
@@ -58,8 +62,11 @@ export interface Network {
   id: string;
   insurerId: string;
   name: string;
-  /** True if the network sorts in-network hospitals into cost tiers. */
-  tiered: boolean;
+  /**
+   * True if the network sorts in-network hospitals into cost tiers.
+   * Null means this has not been confirmed from a source yet.
+   */
+  tiered: boolean | null;
   sourceId: string;
   lastChecked: IsoDate;
 }
@@ -69,7 +76,7 @@ export interface Plan {
   id: string;
   insurerId: string;
   networkId: string;
-  /** Name as shown on GetCoveredNJ. */
+  /** Plan name exactly as the source lists it. */
   marketingName: string;
   planType: PlanType;
   metalLevel: MetalLevel;
