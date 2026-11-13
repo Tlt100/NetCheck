@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "horizon-finder-omnia",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "OMNIA",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-omnia",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 3 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-omnia-nj",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "OMNIA NJ",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-omnia",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 3 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-omnia-with-bluehpn",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "OMNIA WITH BLUEHPN",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-omnia",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 3 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-advantage-epo",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "ADVANTAGE EPO",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-advantage-epo",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-advantage-epo-nj",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "ADVANTAGE EPO NJ",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-advantage-epo",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-advantage-epo-njpa",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "ADVANTAGE EPO NJPA",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-advantage-epo",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-advantage-epo-hsa-njpa",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "ADVANTAGE EPO HSA NJPA",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-advantage-epo",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "horizon-finder-advantage-epo-with-bluehpn",
+    "rawPayerName": "Horizon Blue Cross Blue Shield of New Jersey",
+    "rawPlanName": "ADVANTAGE EPO WITH BLUEHPN",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "networkId": "horizon-advantage-epo",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-13",
+    "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  }
+]

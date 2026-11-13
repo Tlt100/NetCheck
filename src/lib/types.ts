@@ -124,6 +124,8 @@ export interface NetworkStatusRecord {
   /** Set when the status was derived from a raw name in a source file. */
   mappingId?: string;
   lastChecked: IsoDate;
+  /** What exactly was seen in the source. */
+  note?: string;
 }
 
 /** What the UI shows: a verified record, or unknown. */
