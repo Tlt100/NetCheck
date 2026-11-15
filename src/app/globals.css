@@ -109,6 +109,13 @@ main {
   gap: 0.5rem;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem 1.25rem;
+  font-weight: 600;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

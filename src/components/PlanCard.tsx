@@ -1,7 +1,8 @@
 import Link from "next/link";
 
 import { OUT_OF_NETWORK_NOTE } from "@/content/plan-type-notes";
-import { formatDate, formatMiles } from "@/lib/format";
+import { SourceLabel } from "@/components/SourceLabel";
+import { formatMiles } from "@/lib/format";
 import type { HospitalStatus, PlanScore } from "@/lib/scoring";
 import type { Insurer, Network, Source } from "@/lib/types";
 import styles from "./PlanCard.module.css";
@@ -11,6 +12,8 @@ interface Props {
   insurer?: Insurer;
   network?: Network;
   planSource?: Source;
+  /** All sources by ID, used to label where hospital statuses came from. */
+  sources: Map<string, Source>;
   radius: number;
   /** Carries the ZIP and distance to detail pages, e.g. "?zip=08901&radius=15". */
   query: string;
@@ -32,11 +35,12 @@ function HospitalList({ items, query }: { items: HospitalStatus[]; query: string
   );
 }
 
-export function PlanCard({ score, insurer, network, planSource, radius, query }: Props) {
+export function PlanCard({ score, insurer, network, planSource, sources, radius, query }: Props) {
   const { plan, hospitals, inNetwork, outOfNetwork, unknown, total } = score;
   const inList = hospitals.filter((h) => h.status === "in-network");
   const outList = hospitals.filter((h) => h.status === "out-of-network");
   const unknownList = hospitals.filter((h) => h.status === "unknown");
+  const statusSourceId = inList.concat(outList)[0]?.record?.sourceId;
   const lastStatusCheck = inList
     .concat(outList)
     .map((h) => h.record?.lastChecked ?? "")
@@ -54,9 +58,22 @@ export function PlanCard({ score, insurer, network, planSource, radius, query }:
           {network ? ` · ${network.name} network` : ""}
         </p>
         <ul className={styles.tags} aria-label="Plan features">
-          <li>{plan.planType}</li>
+          <li>
+            <Link href={`/plan-types#${plan.planType.toLowerCase()}`}>
+              {plan.planType}
+              <span className="visually-hidden"> plan type explained</span>
+            </Link>
+          </li>
           <li>{plan.metalLevel}</li>
-          <li>{plan.hsaEligible ? "HSA-eligible" : "Not HSA-eligible"}</li>
+          <li>
+            {plan.hsaEligible ? (
+              <Link href="/plan-types#hdhp-hsa">
+                HSA-eligible<span className="visually-hidden"> explained</span>
+              </Link>
+            ) : (
+              "Not HSA-eligible"
+            )}
+          </li>
         </ul>
       </header>
 
@@ -104,7 +121,12 @@ export function PlanCard({ score, insurer, network, planSource, radius, query }:
         </details>
       )}
 
-      <p className={styles.note}>{OUT_OF_NETWORK_NOTE[plan.planType]}</p>
+      <p className={styles.note}>
+        {OUT_OF_NETWORK_NOTE[plan.planType]}{" "}
+        <Link href={`/plan-types#${plan.planType.toLowerCase()}`}>
+          What {plan.planType} means
+        </Link>
+      </p>
 
       <p className={styles.more}>
         <Link href={`/plans/${plan.id}${query}`}>
@@ -114,11 +136,17 @@ export function PlanCard({ score, insurer, network, planSource, radius, query }:
       </p>
 
       <p className={styles.source}>
-        Plan details: {planSource?.publisher ?? "source not listed"}, checked{" "}
-        {formatDate(plan.lastChecked)}.
-        {lastStatusCheck
-          ? ` Hospital status last checked ${formatDate(lastStatusCheck)}.`
-          : ""}
+        <SourceLabel label="Plan details" source={planSource} checked={plan.lastChecked} />
+        {statusSourceId && (
+          <>
+            {" "}
+            <SourceLabel
+              label="Hospital status"
+              source={sources.get(statusSourceId)}
+              checked={lastStatusCheck}
+            />
+          </>
+        )}
       </p>
     </article>
   );

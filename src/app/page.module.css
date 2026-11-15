@@ -15,6 +15,14 @@
   color: var(--muted);
 }
 
+.notice {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--warn-border);
+  border-radius: 8px;
+  background: var(--warn-soft);
+  font-size: 0.9375rem;
+}
+
 .how {
   margin-top: 1.5rem;
   display: grid;

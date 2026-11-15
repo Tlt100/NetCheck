@@ -29,6 +29,10 @@
   margin-top: 0.25rem;
 }
 
+.tags a {
+  color: inherit;
+}
+
 .tags li {
   font-size: 0.8125rem;
   font-weight: 600;

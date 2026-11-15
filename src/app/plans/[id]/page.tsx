@@ -84,7 +84,16 @@ async function PlanDetail({ params, searchParams }: Props) {
           <li>{plan.hsaEligible ? "HSA-eligible" : "Not HSA-eligible"}</li>
           <li>Sold in {plan.countiesOffered.join(" and ")} counties</li>
         </ul>
-        <p>{OUT_OF_NETWORK_NOTE[plan.planType]}</p>
+        <p>
+          {OUT_OF_NETWORK_NOTE[plan.planType]}{" "}
+          <Link href={`/plan-types#${plan.planType.toLowerCase()}`}>What {plan.planType} means</Link>
+          {plan.hsaEligible && (
+            <>
+              {" · "}
+              <Link href="/plan-types#hdhp-hsa">What HSA-eligible means</Link>
+            </>
+          )}
+        </p>
         <p className={styles.small}>
           Plan details from{" "}
           {planSource ? <a href={planSource.url}>{planSource.publisher}</a> : "a source not listed"},

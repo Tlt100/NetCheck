@@ -171,6 +171,7 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
                   score={score}
                   radius={radius}
                   query={query}
+                  sources={sourceById}
                   insurer={insurerById.get(score.plan.insurerId)}
                   network={networkById.get(score.plan.networkId)}
                   planSource={sourceById.get(score.plan.sourceId)}

@@ -31,6 +31,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main>{children}</main>
         <footer className="site-footer">
           <div className="container">
+            <nav aria-label="More information" className="footer-links">
+              <Link href="/plan-types">Plan types explained</Link>
+              <Link href="/about-the-data">About the data</Link>
+            </nav>
             <p>
               Network data can change. Confirm with the plan and the hospital
               before enrolling.
