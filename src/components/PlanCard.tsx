@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { OUT_OF_NETWORK_NOTE } from "@/content/plan-type-notes";
 import { formatDate, formatMiles } from "@/lib/format";
 import type { HospitalStatus, PlanScore } from "@/lib/scoring";
@@ -10,15 +12,17 @@ interface Props {
   network?: Network;
   planSource?: Source;
   radius: number;
+  /** Carries the ZIP and distance to detail pages, e.g. "?zip=08901&radius=15". */
+  query: string;
 }
 
-function HospitalList({ items }: { items: HospitalStatus[] }) {
+function HospitalList({ items, query }: { items: HospitalStatus[]; query: string }) {
   return (
     <ul className={styles.hospitals}>
       {items.map(({ hospital, distanceMiles }) => (
         <li key={hospital.id}>
           <span>
-            {hospital.name}
+            <Link href={`/hospitals/${hospital.id}${query}`}>{hospital.name}</Link>
             <span className={styles.city}>, {hospital.city}</span>
           </span>
           <span className={styles.distance}>{formatMiles(distanceMiles)}</span>
@@ -28,7 +32,7 @@ function HospitalList({ items }: { items: HospitalStatus[] }) {
   );
 }
 
-export function PlanCard({ score, insurer, network, planSource, radius }: Props) {
+export function PlanCard({ score, insurer, network, planSource, radius, query }: Props) {
   const { plan, hospitals, inNetwork, outOfNetwork, unknown, total } = score;
   const inList = hospitals.filter((h) => h.status === "in-network");
   const outList = hospitals.filter((h) => h.status === "out-of-network");
@@ -42,7 +46,9 @@ export function PlanCard({ score, insurer, network, planSource, radius }: Props)
   return (
     <article className={styles.card} aria-labelledby={`plan-${plan.id}`}>
       <header className={styles.header}>
-        <h3 id={`plan-${plan.id}`}>{plan.marketingName}</h3>
+        <h3 id={`plan-${plan.id}`}>
+          <Link href={`/plans/${plan.id}${query}`}>{plan.marketingName}</Link>
+        </h3>
         <p className={styles.insurer}>
           {insurer?.name ?? "Insurer not listed"}
           {network ? ` · ${network.name} network` : ""}
@@ -69,7 +75,7 @@ export function PlanCard({ score, insurer, network, planSource, radius }: Props)
       <section aria-label="Hospitals not in-network">
         <h4>Not in-network</h4>
         {outList.length > 0 ? (
-          <HospitalList items={outList} />
+          <HospitalList items={outList} query={query} />
         ) : (
           <p className={styles.none}>
             {inNetwork + outOfNetwork === 0
@@ -84,7 +90,7 @@ export function PlanCard({ score, insurer, network, planSource, radius }: Props)
       {inList.length > 0 && (
         <details className={styles.details}>
           <summary>In-network hospitals ({inList.length})</summary>
-          <HospitalList items={inList} />
+          <HospitalList items={inList} query={query} />
         </details>
       )}
       {unknownList.length > 0 && (
@@ -94,11 +100,18 @@ export function PlanCard({ score, insurer, network, planSource, radius }: Props)
             Nobody has checked these for this plan yet. They may or may not be
             in the network.
           </p>
-          <HospitalList items={unknownList} />
+          <HospitalList items={unknownList} query={query} />
         </details>
       )}
 
       <p className={styles.note}>{OUT_OF_NETWORK_NOTE[plan.planType]}</p>
+
+      <p className={styles.more}>
+        <Link href={`/plans/${plan.id}${query}`}>
+          See every nearby hospital for this plan
+          <span className="visually-hidden">, {plan.marketingName}</span>
+        </Link>
+      </p>
 
       <p className={styles.source}>
         Plan details: {planSource?.publisher ?? "source not listed"}, checked{" "}

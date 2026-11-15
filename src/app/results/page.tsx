@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 
+import { FilterForm } from "@/components/FilterForm";
 import { PlanCard } from "@/components/PlanCard";
 import { ZipForm } from "@/components/ZipForm";
 import { repository } from "@/lib/data";
-import { isZipFormat, parseRadius } from "@/lib/geo";
 import {
-  findNearbyHospitals,
-  rankByNetworkScore,
-  scorePlan,
-} from "@/lib/scoring";
+  filterAndSort,
+  hasActiveFilters,
+  parseFilters,
+  planTypeBreakdown,
+  searchQuery,
+} from "@/lib/filters";
+import { isZipFormat, parseRadius } from "@/lib/geo";
+import { findNearbyHospitals, scorePlan } from "@/lib/scoring";
 import styles from "./results.module.css";
 
 export const metadata: Metadata = { title: "Plans near you | NetCheck" };
@@ -79,9 +83,14 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
 
   const nearby = findNearbyHospitals(zip, hospitals, radius);
   const areaPlans = plans.filter((p) => p.countiesOffered.includes(zip.county));
-  const ranked = rankByNetworkScore(
+  const areaInsurers = insurers.filter((i) => areaPlans.some((p) => p.insurerId === i.id));
+  const filters = parseFilters(params, areaInsurers.map((i) => i.id));
+  const ranked = filterAndSort(
     areaPlans.map((plan) => scorePlan(plan, nearby, statusRecords)),
+    filters,
   );
+  const breakdown = planTypeBreakdown(areaPlans);
+  const query = searchQuery(zip.zip, radius);
 
   const insurerById = new Map(insurers.map((i) => [i.id, i]));
   const networkById = new Map(networks.map((n) => [n.id, n]));
@@ -109,6 +118,26 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
         mean the hospital is outside the network.
       </p>
 
+      <section aria-labelledby="overview-heading" className={styles.overview}>
+        <h2 id="overview-heading">Plans offered in {zip.county} County</h2>
+        <ul className={styles.shares}>
+          {breakdown.map((share) => (
+            <li key={share.planType}>
+              <strong>{share.percent}%</strong> {share.planType}
+              <span>
+                {" "}
+                ({share.count} of {areaPlans.length})
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p className={styles.sortNote}>
+          Share of the {areaPlans.length} plans in NetCheck&rsquo;s list, by plan type. This counts
+          plans offered, not how many people chose them, and NetCheck does not yet list every plan
+          sold in the county.
+        </p>
+      </section>
+
       {nearby.length === 0 ? (
         <p>
           No hospitals in NetCheck&rsquo;s list are within {radius} miles of{" "}
@@ -118,20 +147,30 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
         <section aria-labelledby="plans-heading" className={styles.list}>
           <div>
             <h2 id="plans-heading">
-              {ranked.length} {ranked.length === 1 ? "plan" : "plans"}
+              {hasActiveFilters(filters)
+                ? `${ranked.length} of ${areaPlans.length} plans match your filters`
+                : `${ranked.length} ${ranked.length === 1 ? "plan" : "plans"}`}
             </h2>
             <p className={styles.sortNote}>
-              Sorted by the number of nearby hospitals verified in-network.
-              The order is not a recommendation. NetCheck does not yet list
-              every plan sold in the county.
+              {filters.sort === "name"
+                ? "Sorted by plan name."
+                : "Sorted by the number of nearby hospitals verified in-network."}{" "}
+              The order is not a recommendation.
             </p>
           </div>
+          <FilterForm zip={zip.zip} radius={radius} filters={filters} insurers={areaInsurers} />
+          {ranked.length === 0 && (
+            <p>
+              No plans match these filters. <a href={`/results${query}`}>Clear filters</a>
+            </p>
+          )}
           <ol className={styles.cards}>
             {ranked.map((score) => (
               <li key={score.plan.id}>
                 <PlanCard
                   score={score}
                   radius={radius}
+                  query={query}
                   insurer={insurerById.get(score.plan.insurerId)}
                   network={networkById.get(score.plan.networkId)}
                   planSource={sourceById.get(score.plan.sourceId)}

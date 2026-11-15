@@ -1,0 +1,23 @@
+.badge {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.125rem 0.5rem;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.in {
+  color: var(--in);
+  background: var(--in-soft);
+}
+
+.out {
+  color: var(--out);
+  background: var(--out-soft);
+}
+
+.unknown {
+  color: var(--unknown);
+  background: var(--unknown-soft);
+}

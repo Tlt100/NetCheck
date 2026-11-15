@@ -43,6 +43,33 @@
   font-size: 0.875rem;
 }
 
+.overview {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.overview h2 {
+  font-size: 1.0625rem;
+}
+
+.shares {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem 1.25rem;
+}
+
+.shares strong {
+  font-size: 1.25rem;
+}
+
+.shares span {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
 .cards {
   display: grid;
   gap: 1rem;
