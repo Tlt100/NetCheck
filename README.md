@@ -49,9 +49,9 @@ public use files are not used.
 
 ## Limitations
 
-- **Small verified set.** The dataset has 8 plans, 61 hospitals and 10 verified
-  network statuses (two Horizon networks at five hospitals, checked
-  2026-11-13). Every other plan and hospital pair shows as "not yet verified".
+- **Small verified set.** The dataset has 8 plans, 61 hospitals and 16 verified
+  network statuses (two Horizon networks at eight hospitals, checked
+  2026-11-13 and 2026-11-15). Every other plan and hospital pair shows as "not yet verified".
 - **Not every plan.** Plans the state marks "not available in all counties",
   and insurers whose network name could not be sourced, are left out.
 - **No tiers yet.** Tiered networks such as Horizon OMNIA are in-network at
