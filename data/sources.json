@@ -79,5 +79,14 @@
     "url": "https://www.amerihealth.com/explore-plans/individuals-and-families/health-plans/nj/compare-plans.html",
     "retrievedOn": "2026-11-12",
     "note": "Regional Preferred plans are listed without tiered cost sharing; AmeriHealth Advantage and Hospital Advantage plans show Tier 1 and Tier 2."
+  },
+  {
+    "id": "amerihealth-provider-finder",
+    "type": "insurer-directory",
+    "title": "Find providers in your individual/family plan network",
+    "publisher": "AmeriHealth",
+    "url": "https://www.amerihealth.com/get-care/find-doctors-and-hospitals/individual-plans.html",
+    "retrievedOn": "2026-11-16",
+    "note": "The page links a separate provider search for each individual network. The \"Regional Preferred EPO/PPO Network\" search was opened without signing in; it showed the plan as \"Amerihealth PPO/EPO (Regional Preferred)\". A search for \"Acute Care Hospital\" within 25 miles of New Brunswick, NJ returned 36 listings. A listing was matched to a CMS hospital only when its street address matched the CMS address. The directory footer showed \"Last updated: 11/15/2026\". Each hospital's own \"plans accepted\" list was not opened."
   }
 ]

@@ -49,9 +49,9 @@ public use files are not used.
 
 ## Limitations
 
-- **Small verified set.** The dataset has 8 plans, 61 hospitals and 24 verified
-  network statuses (two Horizon networks at twelve hospitals, checked
-  between 2026-11-13 and 2026-11-16). Every other plan and hospital pair shows as "not yet verified".
+- **Small verified set.** The dataset has 8 plans, 61 hospitals and 43 verified
+  network statuses (two Horizon networks at twelve hospitals and AmeriHealth
+  Regional Preferred at nineteen, checked between 2026-11-13 and 2026-11-16). Every other plan and hospital pair shows as "not yet verified".
 - **Not every plan.** Plans the state marks "not available in all counties",
   and insurers whose network name could not be sourced, are left out.
 - **No tiers yet.** Tiered networks such as Horizon OMNIA are in-network at
@@ -133,7 +133,7 @@ Built with Next.js and TypeScript, deployed on Vercel.
 
 - Parse one hospital price transparency machine-readable file and feed
   `name-mappings.json`, with an automatic matcher for `exact` and `fuzzy`
-- Verify more hospitals and add AmeriHealth, Oscar, UnitedHealthcare and
+- Verify more hospitals and add Oscar, UnitedHealthcare and
   Ambetter statuses
 - Record network tiers
 - Add a script that rebuilds the hospital and ZIP tables from the CMS and

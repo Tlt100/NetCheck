@@ -214,5 +214,176 @@
     "mappingId": "horizon-finder-advantage-epo",
     "lastChecked": "2026-11-16",
     "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310002",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Newark Beth Israel Medical Ctr, 201 Lyons Ave, Newark, NJ 07112\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310005",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Hunterdon Medical Center, 2100 Wescott Dr, Flemington, NJ 08822\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310009",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Clara Maass Medical Center, 1 Clara Maass Dr, Belleville, NJ 07109\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310015",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Morristown Medical Center, 100 Madison Ave, Morristown, NJ 07960\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310024",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Rwj University Hospital- Rahway, 865 Stone St, Rahway, NJ 07065\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310025",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Bayonne Medical Center, 29 E 29th St, Bayonne, NJ 07002\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310027",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Trinitas Regional Medical Ctr, 225 Williamson St, Elizabeth, NJ 07202\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310038",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Robert Wood Johnson Univ Hosp, 1 Robert Wood Johnson Pl, New Brunswick, NJ 08901\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310039",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Raritan Bay Medical Center, 530 New Brunswick Ave, Perth Amboy, NJ 08861\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310044",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Capital Health System, 1 Capital Way, Pennington, NJ 08534\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310048",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Robert Wood Johnson University Hospital Somerset, 110 Rehill Ave, Somerville, NJ 08876\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310070",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"St Peters University Hospital, 254 Easton Ave, New Brunswick, NJ 08901\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310076",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Cooperman Barnabas Medical Center, 94 Old Short Hills Rd, Livingston, NJ 07039\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310092",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Capital Health System - Fuld, 750 Brunswick Ave, Trenton, NJ 08638\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310108",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Jfk University Medical Center, 65 James St, Edison, NJ 08820\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310110",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Robert Wood Johnson University Hospital At Hamilton, 1 Hamilton Health Pl, Hamilton, NJ 08690\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310111",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Centrastate Medical Center, 901 W Main St, Freehold, NJ 07728\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310112",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"Bayshore Community Hospital, 727 N Beers St, Holmdel, NJ 07733\". Matched to the CMS record by street address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "hospitalId": "310119",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-16",
+    "note": "Listed in the Regional Preferred EPO/PPO Network search as \"University Hospital, 150 Bergen St, Newark, NJ 07103\". Matched to the CMS record by street address."
   }
 ]

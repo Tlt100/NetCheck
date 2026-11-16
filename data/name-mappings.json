@@ -86,5 +86,16 @@
     "confidence": "manual",
     "reviewedOn": "2026-11-13",
     "note": "One of 5 plan labels the directory lists for this network family. The directory does not say which label the individual-market plans use, so a hospital status is recorded only when every label in the family agrees."
+  },
+  {
+    "id": "amerihealth-finder-ppo-epo-regional-preferred",
+    "rawPayerName": "AmeriHealth",
+    "rawPlanName": "Amerihealth PPO/EPO (Regional Preferred)",
+    "sourceId": "amerihealth-provider-finder",
+    "networkId": "amerihealth-regional-preferred",
+    "planId": null,
+    "confidence": "manual",
+    "reviewedOn": "2026-11-16",
+    "note": "AmeriHealth's individual-plan page lists this search under \"Regional Preferred plans\" as the \"Regional Preferred EPO/PPO Network\". The plans in NetCheck's list are EPO plans named Regional Preferred."
   }
 ]
