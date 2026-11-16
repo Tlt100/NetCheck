@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { PlanTypeLegend } from "@/components/PlanTypeLegend";
 import { ZipForm } from "@/components/ZipForm";
 import styles from "./page.module.css";
 
@@ -21,6 +22,8 @@ export default function Home() {
         Network data can change. Confirm with the plan and the hospital before enrolling. NetCheck
         gives information only and does not recommend a plan.
       </p>
+
+      <PlanTypeLegend />
 
       <section className={styles.how} aria-labelledby="how-heading">
         <h2 id="how-heading">How to read the results</h2>

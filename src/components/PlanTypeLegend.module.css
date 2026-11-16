@@ -1,0 +1,77 @@
+.legend {
+  display: grid;
+  gap: 0.625rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.legend h2 {
+  font-size: 1.0625rem;
+}
+
+.intro,
+.more {
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.intro strong {
+  color: var(--foreground);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.table thead th {
+  border-top: 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.table tbody th {
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+/* On phones each plan type becomes a small stacked block. */
+@media (max-width: 34rem) {
+  .table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .table tr {
+    display: grid;
+    gap: 0.125rem;
+    padding: 0.625rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .table th,
+  .table td {
+    display: block;
+    padding: 0;
+    border-top: 0;
+  }
+
+  .table td:last-child::before {
+    content: "Outside the network: ";
+    font-weight: 600;
+  }
+}

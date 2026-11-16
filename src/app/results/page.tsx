@@ -3,6 +3,7 @@ import { Suspense } from "react";
 
 import { FilterForm } from "@/components/FilterForm";
 import { PlanCard } from "@/components/PlanCard";
+import { PlanTypeLegend } from "@/components/PlanTypeLegend";
 import { ZipForm } from "@/components/ZipForm";
 import { repository } from "@/lib/data";
 import {
@@ -137,6 +138,8 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
           sold in the county.
         </p>
       </section>
+
+      <PlanTypeLegend />
 
       {nearby.length === 0 ? (
         <p>
