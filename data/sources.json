@@ -68,7 +68,7 @@
     "title": "Doctor & Hospital Finder",
     "publisher": "Horizon Blue Cross Blue Shield of New Jersey",
     "url": "https://www.horizonblue.com/doctorfinder",
-    "retrievedOn": "2026-11-15",
+    "retrievedOn": "2026-11-16",
     "note": "Public (not signed in) search. Each hospital's profile was opened and its full \"Plans Accepted\" list read. The profile's record ID contains the hospital's CMS Certification Number, which was matched to the CMS record. OMNIA tier (Tier 1 or Tier 2) was not captured."
   },
   {

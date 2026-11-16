@@ -142,5 +142,77 @@
     "mappingId": "horizon-finder-advantage-epo",
     "lastChecked": "2026-11-15",
     "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "hospitalId": "310024",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 3 directory labels for this network: OMNIA, OMNIA NJ, OMNIA WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "hospitalId": "310039",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 3 directory labels for this network: OMNIA, OMNIA NJ, OMNIA WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "hospitalId": "310048",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 3 directory labels for this network: OMNIA, OMNIA NJ, OMNIA WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "hospitalId": "310112",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 3 directory labels for this network: OMNIA, OMNIA NJ, OMNIA WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "hospitalId": "310024",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "hospitalId": "310039",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "hospitalId": "310048",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "hospitalId": "310112",
+    "status": "in-network",
+    "sourceId": "horizon-doctor-hospital-finder",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-16",
+    "note": "The hospital's \"Plans Accepted\" list included all 5 directory labels for this network: ADVANTAGE EPO, ADVANTAGE EPO NJ, ADVANTAGE EPO NJPA, ADVANTAGE EPO HSA NJPA, ADVANTAGE EPO WITH BLUEHPN."
   }
 ]
