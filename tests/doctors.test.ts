@@ -32,7 +32,7 @@ test("doctors with no verified record count as unknown, never out-of-network", (
   );
 });
 
-test("office label prefers the registered practice name", () => {
-  assert.equal(officeLabel(loc("x", 40, { practiceName: "Kids Care PA" })), "Kids Care PA");
-  assert.equal(officeLabel(loc("x", 40)), "x Main St");
+test("office label is the address, never the registered organization name", () => {
+  const office = loc("x", 40, { practiceName: "Some Hospital Group LLC", city: "Edison" });
+  assert.equal(officeLabel(office), "x Main St, Edison");
 });

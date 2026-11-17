@@ -177,7 +177,7 @@ for (const l of practiceLocations) {
 
 const npis = new Set();
 for (const c of clinicians) {
-  if (!/^d{10}$/.test(c.npi ?? "")) fail("clinicians", c.npi, "npi must be 10 digits");
+  if (!/^\d{10}$/.test(c.npi ?? "")) fail("clinicians", c.npi, "npi must be 10 digits");
   if (npis.has(c.npi)) fail("clinicians", c.npi, "duplicate npi");
   npis.add(c.npi);
   if (!SPECIALTIES.includes(c.specialty)) fail("clinicians", c.npi, "unsupported specialty");

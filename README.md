@@ -18,6 +18,10 @@ in its network.
 - **Hospital page:** address, distance, and each listed plan's status there.
 - **Plan types explained:** HMO, EPO, PPO, POS and HDHP/HSA in plain language.
 - **About the data:** every source, with the date it was read.
+- **Pediatricians (in progress):** pediatric offices near a ZIP code, the
+  doctors at each address, and a live Google Maps rating per office. Network
+  status for doctors has not been checked yet, so every doctor shows as "not
+  yet verified".
 
 NetCheck informs; the user decides. It does not sell insurance, enroll anyone,
 recommend a plan, or give legal, financial or medical advice. It asks only for
@@ -62,6 +66,33 @@ public use files are not used.
   sale. County enrollment by plan type is not public.
 - **Directories can be wrong or out of date.** Network data can change.
   Confirm with the plan and the hospital before enrolling.
+
+## Pediatricians and Google Maps ratings
+
+- **Doctors** come from the monthly NPPES file (the federal NPI registry):
+  active individual NPIs whose primary taxonomy is 208000000X (Pediatrics)
+  and whose primary practice location is in a supported ZIP.
+  `scripts/extract-pediatricians.mjs` streams the ~12 GB file and geocodes
+  each address with the Census batch geocoder. The registry's online search
+  was not used because it misses general pediatricians, and the CMS Doctors
+  and Clinicians file lists only Medicare-enrolled doctors.
+- **Ratings** come from the Google Places API. Google's terms allow storing
+  only the place ID, so `data/place-matches.json` holds IDs and nothing else
+  (the validator rejects any other field), and the rating and review count
+  are fetched fresh each time an office page opens. They are labelled
+  "Google Maps" with a link to the listing, as Google's attribution rules
+  require. Stars are hidden below 10 reviews.
+- **Matching an office to Google** (`scripts/match-places.mjs`) counts as
+  exact only when the street number, street and ZIP agree and the place name
+  matches the practice. Medical buildings hold many offices, so an address
+  match alone is `fuzzy` and shows no rating.
+- **No plan-level rating scores.** Google's terms forbid creating content
+  from its data, so NetCheck shows each office's own rating and does not
+  compute figures such as "offices rated 4+ per plan".
+- **Setup:** set `GOOGLE_MAPS_API_KEY` and `GOOGLE_RATINGS_ENABLED=true` in
+  Vercel and `.env.local`, then run
+  `node --env-file=.env.local scripts/match-places.mjs`. Without them the
+  office pages say ratings are not switched on.
 
 ## How plan matching works
 
@@ -130,6 +161,8 @@ npm run build          # validates data, then builds
 Built with Next.js and TypeScript, deployed on Vercel.
 
 ## Roadmap
+
+- Verify pediatricians' network status, then add OB-GYN and other specialties
 
 - Parse one hospital price transparency machine-readable file and feed
   `name-mappings.json`, with an automatic matcher for `exact` and `fuzzy`

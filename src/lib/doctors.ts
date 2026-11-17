@@ -74,7 +74,12 @@ export function countDoctorsForPlan(
   return { plan, ...counts, total: counts.inNetwork + counts.outOfNetwork + counts.unknown };
 }
 
-/** "Saint Peter's Pediatrics" or, without a registered practice name, the street. */
+/**
+ * Offices are titled by street address. The organization name in the
+ * registry is a legal entity registered at that address, which is often a
+ * hospital group or a different department, so it is shown only as a
+ * labelled second line, never as the office's name.
+ */
 export function officeLabel(location: PracticeLocation): string {
-  return location.practiceName ?? location.street;
+  return `${location.street}, ${location.city}`;
 }

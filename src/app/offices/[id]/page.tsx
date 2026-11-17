@@ -60,6 +60,12 @@ async function Office({ params, searchParams }: Props) {
 
       <header className={styles.section}>
         <h1>{officeLabel(location)}</h1>
+        {location.practiceName && (
+          <p className={styles.sub}>
+            Registered organization at this address: {location.practiceName}. This is the legal name
+            in the registry and may be a parent group rather than the office&rsquo;s own name.
+          </p>
+        )}
         <address className={styles.address}>
           {location.street}
           <br />

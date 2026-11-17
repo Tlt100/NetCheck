@@ -38,7 +38,7 @@ const WORDS = [
   [/\bsouth\b/g, "s"], [/\beast\b/g, "e"], [/\bwest\b/g, "w"], [/\bone\b/g, "1"],
 ];
 function streetKey(line) {
-  let s = line.toLowerCase().replace(/[.,#]/g, " ");
+  let s = line.toLowerCase().replace(/#\s*\S+/g, " ").replace(/[.,]/g, " ");
   s = s.replace(/\b(ste|suite|fl|floor|unit|bldg|building|rm|room|apt)\b.*$/, "");
   for (const [re, to] of WORDS) s = s.replace(re, to);
   return s.replace(/\s+/g, " ").trim();

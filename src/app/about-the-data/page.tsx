@@ -24,11 +24,13 @@ const TYPE_LABEL: Record<SourceType, string> = {
 };
 
 export default async function AboutTheDataPage() {
-  const [sources, plans, hospitals, statusRecords] = await Promise.all([
+  const [sources, plans, hospitals, statusRecords, clinicians, offices] = await Promise.all([
     repository.listSources(),
     repository.listPlans(),
     repository.listHospitals(),
     repository.listNetworkStatus(),
+    repository.listClinicians(),
+    repository.listPracticeLocations(),
   ]);
   const checkedHospitals = new Set(statusRecords.map((r) => r.hospitalId)).size;
   const lastChecked = statusRecords.map((r) => r.lastChecked).sort().at(-1);
@@ -82,6 +84,15 @@ export default async function AboutTheDataPage() {
             {statusRecords.length} verified statuses covering {checkedHospitals} hospitals
             {lastChecked ? `, most recently checked ${formatDate(lastChecked)}` : ""}. Every other
             plan and hospital pair shows as not yet verified.
+          </li>
+          <li>
+            {clinicians.length} general pediatricians at {offices.length} offices, from the federal NPI
+            registry. Their network status has not been checked yet, so every doctor shows as not yet
+            verified. Doctors report their own practice address, and many have not updated it in years.
+          </li>
+          <li>
+            Office ratings come from Google Maps and are loaded live. They describe the office as a whole,
+            not one doctor, and NetCheck does not store or combine them.
           </li>
           <li>Cost tiers within a network (for example Tier 1 and Tier 2) are not recorded yet.</li>
           <li>

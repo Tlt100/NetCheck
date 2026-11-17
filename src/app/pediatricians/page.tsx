@@ -150,9 +150,9 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
                   <Link href={`/offices/${location.id}${query}`} className={styles.officeName}>
                     {officeLabel(location)}
                   </Link>
-                  <div className={styles.muted}>
-                    {location.street}, {location.city}
-                  </div>
+                  {location.practiceName && (
+                    <div className={styles.muted}>Registered organization: {location.practiceName}</div>
+                  )}
                   <div className={styles.small}>
                     {docs.length} {docs.length === 1 ? "pediatrician" : "pediatricians"}
                   </div>

@@ -88,5 +88,14 @@
     "url": "https://www.amerihealth.com/get-care/find-doctors-and-hospitals/individual-plans.html",
     "retrievedOn": "2026-11-16",
     "note": "The page links a separate provider search for each individual network. The \"Regional Preferred EPO/PPO Network\" search was opened without signing in; it showed the plan as \"Amerihealth PPO/EPO (Regional Preferred)\". A search for \"Acute Care Hospital\" within 25 miles of New Brunswick, NJ returned 36 listings. A listing was matched to a CMS hospital only when its street address matched the CMS address. The directory footer showed \"Last updated: 11/15/2026\". Each hospital's own \"plans accepted\" list was not opened."
+  },
+  {
+    "id": "nppes-npi-registry",
+    "type": "nppes",
+    "title": "NPPES NPI Registry, monthly data dissemination file (November 2026)",
+    "publisher": "Centers for Medicare & Medicaid Services",
+    "url": "https://download.cms.gov/nppes/NPI_Files.html",
+    "retrievedOn": "2026-11-17",
+    "note": "Clinicians are active individual NPIs whose primary taxonomy is 208000000X (Pediatrics). The practice address is the primary practice location the clinician reported to the registry, which can be out of date. A location's practice name is the legal name of a pediatric organization NPI at the same street address. 21 of 168 locations could not be geocoded and are left out."
   }
 ]
