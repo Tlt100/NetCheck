@@ -33,7 +33,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="container">
             <nav aria-label="More information" className="footer-links">
               <Link href="/plan-types">Plan types explained</Link>
+              <Link href="/pediatricians">Find pediatricians</Link>
               <Link href="/about-the-data">About the data</Link>
+              <Link href="/terms">Terms and privacy</Link>
             </nav>
             <p>
               Network data can change. Confirm with the plan and the hospital

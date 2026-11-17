@@ -20,6 +20,7 @@ const TYPE_LABEL: Record<SourceType, string> = {
   cms: "Federal hospital data",
   census: "Census Bureau",
   openstreetmap: "OpenStreetMap",
+  nppes: "Federal NPI registry",
 };
 
 export default async function AboutTheDataPage() {

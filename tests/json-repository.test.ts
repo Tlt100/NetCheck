@@ -19,6 +19,10 @@ const repo = createJsonRepository({
   networkStatus: load("network-status"),
   nameMappings: load("name-mappings"),
   zips: load("zips"),
+  clinicians: load("clinicians"),
+  practiceLocations: load("practice-locations"),
+  clinicianStatus: load("clinician-status"),
+  placeMatches: load("place-matches"),
 });
 
 test("finds a supported ZIP and reports its county", async () => {

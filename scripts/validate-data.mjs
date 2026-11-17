@@ -154,6 +154,73 @@ for (const z of zips) {
   needSource("zips", z.zip, z.sourceId);
 }
 
+// ---------------- Doctors (version 2) ----------------
+const clinicians = load("clinicians");
+const practiceLocations = load("practice-locations");
+const clinicianStatus = load("clinician-status");
+const placeMatches = load("place-matches");
+const SPECIALTIES = ["pediatrics"];
+
+const locationIds = new Set();
+for (const l of practiceLocations) {
+  if (!/^loc-[0-9a-f]{10}$/.test(l.id ?? "")) fail("practice-locations", l.id, "id must look like loc-<10 hex>");
+  if (locationIds.has(l.id)) fail("practice-locations", l.id, "duplicate id");
+  locationIds.add(l.id);
+  if (l.state !== "NJ") fail("practice-locations", l.id, "only NJ locations");
+  if (!seenZips.has(l.zip)) fail("practice-locations", l.id, "zip is not a supported ZIP");
+  if (!COUNTIES.includes(l.county)) fail("practice-locations", l.id, "unsupported county");
+  needCoords("practice-locations", l.id, l);
+  needSource("practice-locations", l.id, l.sourceId);
+  needSource("practice-locations", l.id, l.geocodeSourceId);
+  needDate("practice-locations", l.id, "lastChecked", l.lastChecked);
+}
+
+const npis = new Set();
+for (const c of clinicians) {
+  if (!/^d{10}$/.test(c.npi ?? "")) fail("clinicians", c.npi, "npi must be 10 digits");
+  if (npis.has(c.npi)) fail("clinicians", c.npi, "duplicate npi");
+  npis.add(c.npi);
+  if (!SPECIALTIES.includes(c.specialty)) fail("clinicians", c.npi, "unsupported specialty");
+  if (!locationIds.has(c.locationId)) fail("clinicians", c.npi, "unknown locationId");
+  needSource("clinicians", c.npi, c.sourceId);
+  needDate("clinicians", c.npi, "lastChecked", c.lastChecked);
+}
+
+const clinicianPairs = new Set();
+for (const s of clinicianStatus) {
+  const key = `${s.networkId} / ${s.npi}`;
+  if (clinicianPairs.has(key)) fail("clinician-status", key, "duplicate network/clinician pair");
+  clinicianPairs.add(key);
+  if (!networkById.has(s.networkId)) fail("clinician-status", key, "unknown networkId");
+  if (!npis.has(s.npi)) fail("clinician-status", key, "unknown npi");
+  if (!STATUS_VALUES.includes(s.status))
+    fail("clinician-status", key, 'status must be "in-network" or "out-of-network"; leave the record out if unknown');
+  needSource("clinician-status", key, s.sourceId);
+  needDate("clinician-status", key, "lastChecked", s.lastChecked);
+  if (s.mappingId) {
+    const mapping = mappingById.get(s.mappingId);
+    if (!mapping) fail("clinician-status", key, "unknown mappingId");
+    else if (!TRUSTED.includes(mapping.confidence))
+      fail("clinician-status", key, `status relies on a "${mapping.confidence}" mapping; only exact or manual are allowed`);
+  }
+}
+
+// Google's terms allow storing only the place ID. Any other field would be
+// stored Google content, so the check rejects it.
+const PLACE_MATCH_FIELDS = new Set(["locationId", "placeId", "confidence", "checkedOn", "method"]);
+const matchedLocations = new Set();
+for (const m of placeMatches) {
+  const key = m.locationId;
+  for (const field of Object.keys(m))
+    if (!PLACE_MATCH_FIELDS.has(field)) fail("place-matches", key, `field "${field}" is not allowed; store only the place ID`);
+  if (!locationIds.has(m.locationId)) fail("place-matches", key, "unknown locationId");
+  if (matchedLocations.has(m.locationId)) fail("place-matches", key, "duplicate locationId");
+  matchedLocations.add(m.locationId);
+  if (!/^[A-Za-z0-9_-]{10,}$/.test(m.placeId ?? "")) fail("place-matches", key, "placeId looks wrong");
+  if (!CONFIDENCES.includes(m.confidence)) fail("place-matches", key, "invalid confidence");
+  needDate("place-matches", key, "checkedOn", m.checkedOn);
+}
+
 if (errors.length > 0) {
   console.error(`Data validation failed with ${errors.length} problem(s):`);
   for (const e of errors) console.error(`  - ${e}`);
@@ -163,5 +230,6 @@ if (errors.length > 0) {
 console.log(
   `Data OK: ${plans.length} plans, ${hospitals.length} hospitals, ` +
     `${statuses.length} verified network statuses, ${mappings.length} name mappings, ` +
-    `${zips.length} ZIP codes, ${sources.length} sources.`,
+    `${zips.length} ZIP codes, ${sources.length} sources, ` +
+    `${clinicians.length} clinicians at ${practiceLocations.length} locations, ${placeMatches.length} Google place matches.`,
 );

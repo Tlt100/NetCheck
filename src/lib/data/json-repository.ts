@@ -1,4 +1,8 @@
 import type {
+  Clinician,
+  ClinicianStatusRecord,
+  PlaceMatch,
+  PracticeLocation,
   Hospital,
   Insurer,
   NameMapping,
@@ -20,6 +24,10 @@ export interface DataTables {
   networkStatus: NetworkStatusRecord[];
   nameMappings: NameMapping[];
   zips: ZipRecord[];
+  clinicians: Clinician[];
+  practiceLocations: PracticeLocation[];
+  clinicianStatus: ClinicianStatusRecord[];
+  placeMatches: PlaceMatch[];
 }
 
 function indexBy<T>(rows: T[], key: (row: T) => string): Map<string, T> {
@@ -36,6 +44,8 @@ export function createJsonRepository(tables: DataTables): Repository {
   const plans = indexBy(tables.plans, (p) => p.id);
   const hospitals = indexBy(tables.hospitals, (h) => h.id);
   const sources = indexBy(tables.sources, (s) => s.id);
+  const locations = indexBy(tables.practiceLocations, (l) => l.id);
+  const placeMatches = indexBy(tables.placeMatches, (m) => m.locationId);
 
   return {
     getZip: async (zip) => zips.get(zip) ?? null,
@@ -54,5 +64,11 @@ export function createJsonRepository(tables: DataTables): Repository {
 
     getSource: async (id) => sources.get(id) ?? null,
     listSources: async () => tables.sources,
+
+    listClinicians: async () => tables.clinicians,
+    listPracticeLocations: async () => tables.practiceLocations,
+    getPracticeLocation: async (id) => locations.get(id) ?? null,
+    listClinicianStatus: async () => tables.clinicianStatus,
+    getPlaceMatch: async (locationId) => placeMatches.get(locationId) ?? null,
   };
 }

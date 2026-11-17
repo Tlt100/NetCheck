@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Suspense } from "react";
 
 import { FilterForm } from "@/components/FilterForm";
@@ -184,6 +185,10 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
           </ol>
         </section>
       )}
+
+      <p className={styles.method}>
+        <Link href={`/pediatricians${query}`}>Pediatricians near {zip.zip}</Link>
+      </p>
 
       <p className={styles.method}>
         Distances are straight-line, measured from the center of the ZIP code

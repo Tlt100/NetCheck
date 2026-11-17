@@ -1,4 +1,8 @@
 import type {
+  Clinician,
+  ClinicianStatusRecord,
+  PlaceMatch,
+  PracticeLocation,
   Hospital,
   Insurer,
   NameMapping,
@@ -34,5 +38,13 @@ export interface Repository {
   listNameMappings(): Promise<NameMapping[]>;
 
   getSource(id: string): Promise<Source | null>;
+
+  listClinicians(): Promise<Clinician[]>;
+  listPracticeLocations(): Promise<PracticeLocation[]>;
+  getPracticeLocation(id: string): Promise<PracticeLocation | null>;
+  /** Verified records only. A missing network/clinician pair means unknown. */
+  listClinicianStatus(): Promise<ClinicianStatusRecord[]>;
+  /** Google place IDs for practice locations (IDs only, per Google's terms). */
+  getPlaceMatch(locationId: string): Promise<PlaceMatch | null>;
   listSources(): Promise<Source[]>;
 }

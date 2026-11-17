@@ -1,0 +1,126 @@
+.page {
+  padding-top: 2rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.page h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.2;
+}
+
+.page h2 {
+  font-size: 1.1875rem;
+}
+
+.heading,
+.section {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.small {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.notice {
+  padding: 0.875rem 1rem;
+  border: 1px solid var(--warn-border);
+  border-radius: 8px;
+  background: var(--warn-soft);
+  font-size: 0.9375rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 0.75rem;
+  align-items: end;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.field label {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.field input,
+.field select {
+  height: 2.75rem;
+  padding: 0 0.75rem;
+  font: inherit;
+  background: #fff;
+  border: 1px solid #8a9aa3;
+  border-radius: 8px;
+}
+
+.button {
+  height: 2.75rem;
+  padding: 0 1.25rem;
+  font: inherit;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.error {
+  grid-column: 1 / -1;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--out);
+}
+
+.planRows,
+.offices {
+  display: grid;
+  border-top: 1px solid var(--border);
+}
+
+.planRows li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding: 0.625rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.offices li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.officeName {
+  font-weight: 600;
+}
+
+.distance {
+  flex: none;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 34rem) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}

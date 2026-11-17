@@ -31,7 +31,8 @@ export type SourceType =
   | "insurer-plan-document" // SBC, brochure, or plan page
   | "cms" // CMS Provider Data Catalog
   | "census" // Census Bureau gazetteer / geocoder
-  | "openstreetmap"; // fallback geocoding only
+  | "openstreetmap" // fallback geocoding only
+  | "nppes"; // federal NPI registry
 
 export interface Source {
   id: string;
@@ -170,3 +171,74 @@ export const TRUSTED_CONFIDENCE: readonly MatchConfidence[] = [
   "exact",
   "manual",
 ];
+
+/* ------------------------------------------------------------------ */
+/* Doctors (version 2, pediatricians first)                            */
+/* ------------------------------------------------------------------ */
+
+export type Specialty = "pediatrics";
+
+/** One clinician from the federal NPI registry (NPPES). */
+export interface Clinician {
+  /** National Provider Identifier. */
+  npi: string;
+  name: string;
+  credential?: string;
+  specialty: Specialty;
+  /** The clinician's primary taxonomy code in the registry. */
+  taxonomyCode: string;
+  /** The registry's primary practice location for this clinician. */
+  locationId: string;
+  /** When the clinician last updated their own registry record. */
+  registryLastUpdated: IsoDate;
+  sourceId: string;
+  lastChecked: IsoDate;
+}
+
+/** A practice address where one or more clinicians see patients. */
+export interface PracticeLocation {
+  /** Stable ID derived from the normalized street address and ZIP. */
+  id: string;
+  /** Legal name of an organization registered at the same address, if any. */
+  practiceName?: string;
+  street: string;
+  city: string;
+  state: "NJ";
+  zip: string;
+  county: County;
+  phone?: string;
+  lat: number;
+  lon: number;
+  sourceId: string;
+  geocodeSourceId: string;
+  lastChecked: IsoDate;
+}
+
+/**
+ * Network status for one clinician. As with hospitals, there is no
+ * "unknown" value: a missing record is unknown.
+ */
+export interface ClinicianStatusRecord {
+  networkId: string;
+  npi: string;
+  status: NetworkStatusValue;
+  sourceId: string;
+  mappingId?: string;
+  lastChecked: IsoDate;
+  note?: string;
+}
+
+/**
+ * Links a practice location to its Google Maps place. Google's terms allow
+ * storing the place ID and nothing else, so the rating, review count, name
+ * and address are always fetched fresh and never saved.
+ */
+export interface PlaceMatch {
+  locationId: string;
+  placeId: string;
+  /** Only exact or manual matches are used to show a rating. */
+  confidence: MatchConfidence;
+  checkedOn: IsoDate;
+  /** How the match was made, e.g. "street number, street and ZIP agree". */
+  method: string;
+}

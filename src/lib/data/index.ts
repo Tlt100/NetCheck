@@ -1,9 +1,13 @@
+import clinicianStatus from "../../../data/clinician-status.json";
+import clinicians from "../../../data/clinicians.json";
 import hospitals from "../../../data/hospitals.json";
 import insurers from "../../../data/insurers.json";
 import nameMappings from "../../../data/name-mappings.json";
 import networkStatus from "../../../data/network-status.json";
 import networks from "../../../data/networks.json";
+import placeMatches from "../../../data/place-matches.json";
 import plans from "../../../data/plans.json";
+import practiceLocations from "../../../data/practice-locations.json";
 import sources from "../../../data/sources.json";
 import zips from "../../../data/zips.json";
 
@@ -21,6 +25,10 @@ const tables = {
   networkStatus,
   nameMappings,
   zips,
+  clinicians,
+  practiceLocations,
+  clinicianStatus,
+  placeMatches,
 } as unknown as DataTables;
 
 /**

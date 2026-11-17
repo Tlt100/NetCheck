@@ -18,6 +18,10 @@ export default function Home() {
 
       <ZipForm />
 
+      <p className={styles.alt}>
+        Looking for a children&rsquo;s doctor? <Link href="/pediatricians">Find pediatricians near you</Link>
+      </p>
+
       <p className={styles.notice} role="note">
         Network data can change. Confirm with the plan and the hospital before enrolling. NetCheck
         gives information only and does not recommend a plan.
