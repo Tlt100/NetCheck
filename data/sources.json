@@ -97,5 +97,14 @@
     "url": "https://download.cms.gov/nppes/NPI_Files.html",
     "retrievedOn": "2026-11-17",
     "note": "Clinicians are active individual NPIs whose primary taxonomy is 208000000X (Pediatrics). The practice address is the primary practice location the clinician reported to the registry, which can be out of date. A location's practice name is the legal name of a pediatric organization NPI at the same street address. 21 of 168 locations could not be geocoded and are left out."
+  },
+  {
+    "id": "amerihealth-provider-finder-pediatrics",
+    "type": "insurer-directory",
+    "title": "Find providers: Regional Preferred EPO/PPO Network, Pediatrics",
+    "publisher": "AmeriHealth",
+    "url": "https://www.amerihealth.com/get-care/find-doctors-and-hospitals/individual-plans.html",
+    "retrievedOn": "2026-11-19",
+    "note": "Public (not signed in) search of the Regional Preferred EPO/PPO Network for the specialty \"Pediatrics\" within 10 miles of New Brunswick, NJ: 307 results, of which 298 doctor listings (MD or DO) were read. Listings do not show the doctor's own NPI; the NPI on a profile belongs to the practice location. A listing was matched to a registry pediatrician only when first name, last name, street number and street, and ZIP all agree. Name matches at a different address were left unknown. Checked for the 66 pediatricians within 5 miles of ZIP 08901."
   }
 ]

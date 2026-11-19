@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1124138920",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Jean S. Goh, 1598 Us Highway 130, North Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1154508794",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Adele N. Marina, 330 Livingston Ave Ste 2AA, New Brunswick, NJ 08901\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1275535858",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Elizabeth Esterov, 2206 Us Highway 130, N Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1275546160",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Ramalakshmi V. Yerramilli, 345 Livingston Ave, New Brunswick, NJ 08901\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1386759447",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Dina W. Hanna, 1950 State Route 27, North Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1538378187",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Rashida T. Saif, 1574 Us Highway 130, North Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1588638522",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Helen M. Rose, 330 Livingston Ave Ste 4, New Brunswick, NJ 08901\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1770012353",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Krupali Patel, 317 Cleveland Ave Ste 204, Highland Park, NJ 08904\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1770228462",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Rusheil Patel, 1553 Ruth Rd Ste 1, North Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1811910607",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Karen M. Ingram, 11 Bishop Pl, New Brunswick, NJ 08901\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1881334340",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Shrey Patel, 503 Cranbury Rd, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1982766978",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Alla Gordina, 7 Auer Ct, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1134133234",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-19",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Roxanne E. Kendall, 254 Easton Ave 4th Fl, New Brunswick, NJ 08901\". Matched by name and practice address."
+  }
+]

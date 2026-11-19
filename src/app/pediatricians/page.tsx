@@ -121,8 +121,9 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
       <SearchForm zip={zip.zip} radius={radius} />
 
       <p className={styles.notice} role="note">
-        <strong>Network status for pediatricians has not been checked yet.</strong> Every doctor below
-        shows as not yet verified. Confirm with the plan and the office before enrolling.
+        <strong>Only some pediatricians have been checked so far.</strong> &ldquo;Not yet
+        verified&rdquo; means nobody has checked, not that the doctor is outside the network. Confirm
+        with the plan and the office before enrolling.
       </p>
 
       {offices.length > 0 && (

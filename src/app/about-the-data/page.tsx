@@ -87,8 +87,8 @@ export default async function AboutTheDataPage() {
           </li>
           <li>
             {clinicians.length} general pediatricians at {offices.length} offices, from the federal NPI
-            registry. Their network status has not been checked yet, so every doctor shows as not yet
-            verified. Doctors report their own practice address, and many have not updated it in years.
+            registry. Network status has been checked for only a few of them so far; the rest show as not
+            yet verified. Doctors report their own practice address, and many have not updated it in years.
           </li>
           <li>
             Office ratings come from Google Maps and are loaded live. They describe the office as a whole,

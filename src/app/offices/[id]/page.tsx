@@ -92,8 +92,8 @@ async function Office({ params, searchParams }: Props) {
       </section>
 
       <p className={styles.notice} role="note">
-        <strong>Network status for pediatricians has not been checked yet.</strong> Confirm with the
-        plan and the office before enrolling.
+        <strong>Only some pediatricians have been checked so far.</strong> Confirm with the plan and
+        the office before enrolling.
       </p>
 
       <section className={styles.section} aria-labelledby="doctors-heading">
