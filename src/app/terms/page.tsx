@@ -58,6 +58,12 @@ export default function TermsPage() {
             When you open an office page, NetCheck&rsquo;s server asks Google for that office&rsquo;s
             rating. Your ZIP code and browser are not sent to Google by NetCheck.
           </li>
+          <li>
+            Maps load their pictures straight from{" "}
+            <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>&rsquo;s servers, so your
+            browser contacts OpenStreetMap when a map is shown, under the{" "}
+            <a href="https://osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Foundation privacy policy</a>.
+          </li>
         </ul>
       </section>
 

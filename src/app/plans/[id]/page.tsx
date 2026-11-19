@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
+import { MedicareStars } from "@/components/MedicareStars";
 import { StatusBadge } from "@/components/StatusBadge";
 import { OUT_OF_NETWORK_NOTE } from "@/content/plan-type-notes";
 import { repository } from "@/lib/data";
@@ -140,7 +141,7 @@ async function PlanDetail({ params, searchParams }: Props) {
                       {hospital.name}
                     </Link>
                     <div className={styles.small}>
-                      {hospital.city}, {hospital.state}
+                      {hospital.city}, {hospital.state} · <MedicareStars rating={hospital.cmsStarRating} compact />
                     </div>
                   </div>
                   <div className={styles.right}>

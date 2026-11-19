@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
+import { MedicareStars } from "@/components/MedicareStars";
 import { StatusBadge } from "@/components/StatusBadge";
 import { repository } from "@/lib/data";
 import { searchQuery } from "@/lib/filters";
@@ -85,6 +86,14 @@ async function HospitalDetail({ params, searchParams }: Props) {
           {distance !== undefined && zip
             ? ` · ${formatMiles(distance)} from ZIP code ${zip.zip} (straight line)`
             : ""}
+        </p>
+        <p>
+          <MedicareStars rating={hospital.cmsStarRating} />
+        </p>
+        <p className={styles.small}>
+          Medicare&rsquo;s overall star rating summarizes measures such as death and readmission rates,
+          safety and patient surveys. It rates the hospital, not your plan, and is updated by CMS a few
+          times a year. <a href="https://www.medicare.gov/care-compare/">Medicare Care Compare</a>
         </p>
         <p className={styles.small}>
           Name and address from{" "}

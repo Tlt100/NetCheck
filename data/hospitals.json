@@ -11,7 +11,8 @@
     "lon": -74.05775,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310002",
@@ -25,7 +26,8 @@
     "lon": -74.21381,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310003",
@@ -39,7 +41,8 @@
     "lon": -73.99706,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310005",
@@ -53,7 +56,8 @@
     "lon": -74.85851,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310006",
@@ -67,7 +71,8 @@
     "lon": -74.13705,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310008",
@@ -81,7 +86,8 @@
     "lon": -74.00926,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310009",
@@ -95,7 +101,8 @@
     "lon": -74.17488,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310010",
@@ -109,7 +116,8 @@
     "lon": -74.62593,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310011",
@@ -123,7 +131,8 @@
     "lon": -74.80966,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310012",
@@ -137,7 +146,8 @@
     "lon": -74.07154,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310014",
@@ -151,7 +161,8 @@
     "lon": -75.11577,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310015",
@@ -165,7 +176,8 @@
     "lon": -74.46568,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310016",
@@ -179,7 +191,8 @@
     "lon": -74.05067,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310017",
@@ -193,7 +206,8 @@
     "lon": -74.30769,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310019",
@@ -207,7 +221,8 @@
     "lon": -74.16681,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310022",
@@ -221,7 +236,8 @@
     "lon": -74.92762,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310024",
@@ -235,7 +251,8 @@
     "lon": -74.2912,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310025",
@@ -249,7 +266,8 @@
     "lon": -74.11347,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 1
   },
   {
     "id": "310027",
@@ -263,7 +281,8 @@
     "lon": -74.21446,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310028",
@@ -277,7 +296,8 @@
     "lon": -74.76031,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310029",
@@ -291,7 +311,8 @@
     "lon": -75.09688,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310031",
@@ -305,7 +326,8 @@
     "lon": -74.58539,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310032",
@@ -319,7 +341,8 @@
     "lon": -75.0557,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310034",
@@ -333,7 +356,8 @@
     "lon": -74.0648,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310038",
@@ -347,7 +371,8 @@
     "lon": -74.44961,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310039",
@@ -361,7 +386,8 @@
     "lon": -74.28102,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310040",
@@ -375,7 +401,8 @@
     "lon": -74.03376,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 1
   },
   {
     "id": "310041",
@@ -389,7 +416,8 @@
     "lon": -74.21712,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 1
   },
   {
     "id": "310044",
@@ -403,7 +431,8 @@
     "lon": -74.80538,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310045",
@@ -417,7 +446,8 @@
     "lon": -73.96851,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310047",
@@ -431,7 +461,8 @@
     "lon": -74.5909,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310048",
@@ -445,7 +476,8 @@
     "lon": -74.59589,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310050",
@@ -459,7 +491,8 @@
     "lon": -74.46323,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310051",
@@ -473,7 +506,8 @@
     "lon": -74.35438,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310052",
@@ -487,7 +521,8 @@
     "lon": -74.12905,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310054",
@@ -501,7 +536,8 @@
     "lon": -74.20403,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310057",
@@ -515,7 +551,8 @@
     "lon": -74.79553,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310058",
@@ -529,7 +566,8 @@
     "lon": -74.06333,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": null
   },
   {
     "id": "310060",
@@ -543,7 +581,8 @@
     "lon": -75.17959,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   },
   {
     "id": "310061",
@@ -557,7 +596,8 @@
     "lon": -74.88205,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310064",
@@ -571,7 +611,8 @@
     "lon": -74.43368,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310069",
@@ -585,7 +626,8 @@
     "lon": -75.17938,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310070",
@@ -599,7 +641,8 @@
     "lon": -74.45998,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310073",
@@ -613,7 +656,8 @@
     "lon": -74.03829,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310074",
@@ -627,7 +671,8 @@
     "lon": -74.04961,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310075",
@@ -641,7 +686,8 @@
     "lon": -73.98369,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310076",
@@ -655,7 +701,8 @@
     "lon": -74.30196,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310083",
@@ -669,7 +716,8 @@
     "lon": -74.21341,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "openstreetmap-nominatim",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 1
   },
   {
     "id": "310084",
@@ -683,7 +731,8 @@
     "lon": -74.21743,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310086",
@@ -697,7 +746,8 @@
     "lon": -75.00946,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310092",
@@ -711,7 +761,8 @@
     "lon": -74.75283,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310096",
@@ -725,7 +776,8 @@
     "lon": -74.17374,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310108",
@@ -739,7 +791,8 @@
     "lon": -74.35074,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 3
   },
   {
     "id": "310110",
@@ -753,7 +806,8 @@
     "lon": -74.67555,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310111",
@@ -767,7 +821,8 @@
     "lon": -74.30893,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310112",
@@ -781,7 +836,8 @@
     "lon": -74.19313,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310113",
@@ -795,7 +851,8 @@
     "lon": -74.28514,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310115",
@@ -809,7 +866,8 @@
     "lon": -74.81409,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 4
   },
   {
     "id": "310118",
@@ -823,7 +881,8 @@
     "lon": -74.07112,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 2
   },
   {
     "id": "310119",
@@ -837,7 +896,8 @@
     "lon": -74.19182,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 1
   },
   {
     "id": "310130",
@@ -851,6 +911,7 @@
     "lon": -74.01461,
     "sourceId": "cms-hospital-general-information",
     "geocodeSourceId": "census-geocoder",
-    "lastChecked": "2026-11-12"
+    "lastChecked": "2026-11-18",
+    "cmsStarRating": 5
   }
 ]

@@ -18,6 +18,10 @@ in its network.
 - **Hospital page:** address, distance, and each listed plan's status there.
 - **Plan types explained:** HMO, EPO, PPO, POS and HDHP/HSA in plain language.
 - **About the data:** every source, with the date it was read.
+- **Maps:** hospitals or pediatric offices around the ZIP code, drawn with
+  Leaflet on OpenStreetMap tiles (free, no key; attribution shown).
+- **Medicare star ratings:** each hospital's 1-to-5 Overall Hospital Quality
+  Star Rating from the same CMS file as its address.
 - **Pediatricians (in progress):** pediatric offices near a ZIP code, the
   doctors at each address, and a live Google Maps rating per office. Network
   status for doctors has not been checked yet, so every doctor shows as "not

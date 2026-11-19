@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 
+import { AreaMap } from "@/components/AreaMap";
 import { repository } from "@/lib/data";
 import { countDoctorsForPlan, findNearbyOffices, officeLabel } from "@/lib/doctors";
 import { searchQuery } from "@/lib/filters";
@@ -123,6 +124,22 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
         <strong>Network status for pediatricians has not been checked yet.</strong> Every doctor below
         shows as not yet verified. Confirm with the plan and the office before enrolling.
       </p>
+
+      {offices.length > 0 && (
+        <AreaMap
+          center={{ lat: zip.lat, lon: zip.lon, label: `ZIP code ${zip.zip}` }}
+          radiusMiles={radius}
+          pointsLabel="pediatric offices"
+          points={offices.map(({ location, distanceMiles, clinicians: docs }) => ({
+            id: location.id,
+            lat: location.lat,
+            lon: location.lon,
+            label: officeLabel(location),
+            detail: `${docs.length} ${docs.length === 1 ? "pediatrician" : "pediatricians"} · ${formatMiles(distanceMiles)}`,
+            href: `/offices/${location.id}${query}`,
+          }))}
+        />
+      )}
 
       <section aria-labelledby="by-plan" className={styles.section}>
         <h2 id="by-plan">By plan</h2>

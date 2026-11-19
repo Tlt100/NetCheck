@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 
+import { AreaMap } from "@/components/AreaMap";
 import { FilterForm } from "@/components/FilterForm";
 import { PlanCard } from "@/components/PlanCard";
 import { PlanTypeLegend } from "@/components/PlanTypeLegend";
 import { ZipForm } from "@/components/ZipForm";
 import { repository } from "@/lib/data";
+import { formatMiles } from "@/lib/format";
 import {
   filterAndSort,
   hasActiveFilters,
@@ -139,6 +141,22 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
           sold in the county.
         </p>
       </section>
+
+      {nearby.length > 0 && (
+        <AreaMap
+          center={{ lat: zip.lat, lon: zip.lon, label: `ZIP code ${zip.zip}` }}
+          radiusMiles={radius}
+          pointsLabel="hospitals"
+          points={nearby.map(({ hospital, distanceMiles }) => ({
+            id: hospital.id,
+            lat: hospital.lat,
+            lon: hospital.lon,
+            label: hospital.name,
+            detail: `${hospital.city} · ${formatMiles(distanceMiles)}`,
+            href: `/hospitals/${hospital.id}${query}`,
+          }))}
+        />
+      )}
 
       <PlanTypeLegend />
 

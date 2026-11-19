@@ -5,8 +5,8 @@
     "title": "Hospital General Information",
     "publisher": "Centers for Medicare & Medicaid Services, Provider Data Catalog",
     "url": "https://data.cms.gov/provider-data/dataset/xubh-q36u",
-    "retrievedOn": "2026-11-12",
-    "note": "Dataset last modified 2026-10-26. Used for hospital names, addresses, counties and CMS Certification Numbers. All 61 New Jersey hospitals of type \"Acute Care Hospitals\" are included."
+    "retrievedOn": "2026-11-18",
+    "note": "Dataset last modified 2026-10-26. Used for hospital names, addresses, counties, CMS Certification Numbers and the Overall Hospital Quality Star Rating (1 to 5 stars; null where CMS shows \"Not Available\"). All 61 New Jersey hospitals of type \"Acute Care Hospitals\" are included."
   },
   {
     "id": "census-geocoder",

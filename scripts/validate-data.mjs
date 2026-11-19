@@ -103,6 +103,8 @@ for (const h of hospitals) {
   needCoords("hospitals", h.id, h);
   needSource("hospitals", h.id, h.sourceId);
   if (h.geocodeSourceId) needSource("hospitals", h.id, h.geocodeSourceId);
+  if (h.cmsStarRating !== null && ![1, 2, 3, 4, 5].includes(h.cmsStarRating))
+    fail("hospitals", h.id, "cmsStarRating must be 1-5 or null");
   needDate("hospitals", h.id, "lastChecked", h.lastChecked);
 }
 

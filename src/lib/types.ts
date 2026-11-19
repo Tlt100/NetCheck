@@ -104,6 +104,11 @@ export interface Hospital {
   sourceId: string;
   /** Source for the coordinates, if different. */
   geocodeSourceId?: string;
+  /**
+   * Medicare's Overall Hospital Quality Star Rating, 1 to 5, from the same CMS
+   * file. Null when CMS does not publish one.
+   */
+  cmsStarRating: number | null;
   lastChecked: IsoDate;
 }
 
