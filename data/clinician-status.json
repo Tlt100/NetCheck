@@ -115,5 +115,423 @@
     "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
     "lastChecked": "2026-11-19",
     "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Roxanne E. Kendall, 254 Easton Ave 4th Fl, New Brunswick, NJ 08901\". Matched by name and practice address."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1154508794",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1275039224",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1275535858",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1336218106",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1346735255",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1386759447",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1396919510",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1467073353",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1467476689",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1538378187",
+    "status": "in-network",
+    "tier": "Tier 2",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 2."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1558457614",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1588638522",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1598779696",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1619465473",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1679831739",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1720641871",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1770012353",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1770228462",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1841932688",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1881334340",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1952315053",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-omnia",
+    "npi": "1992892285",
+    "status": "in-network",
+    "tier": "Tier 1",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-omnia",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"OMNIA\", shown as OMNIA Tier 1."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1720641871",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1336218106",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1558457614",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1992892285",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1154508794",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1588638522",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1396919510",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1619465473",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1346735255",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1770012353",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1467476689",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1598779696",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1952315053",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1275039224",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1841932688",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1538378187",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1386759447",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1679831739",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1275535858",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1467073353",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1770228462",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "horizon-advantage-epo",
+    "npi": "1881334340",
+    "status": "in-network",
+    "sourceId": "horizon-finder-pediatricians",
+    "mappingId": "horizon-finder-advantage-epo",
+    "lastChecked": "2026-11-19",
+    "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
   }
 ]

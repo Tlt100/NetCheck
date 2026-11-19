@@ -112,10 +112,10 @@ async function Office({ params, searchParams }: Props) {
               </div>
               <p className={styles.rowMeta}>
                 {plans.map((p) => {
-                  const { status } = clinicianStatus(p.networkId, d.npi, statusRecords);
+                  const { status, record } = clinicianStatus(p.networkId, d.npi, statusRecords);
                   return status === "unknown" ? null : (
                     <span key={p.id}>
-                      {p.marketingName}: <StatusBadge status={status} />{" "}
+                      {p.marketingName}: <StatusBadge status={status} tier={record?.tier} />{" "}
                     </span>
                   );
                 })}

@@ -106,5 +106,14 @@
     "url": "https://www.amerihealth.com/get-care/find-doctors-and-hospitals/individual-plans.html",
     "retrievedOn": "2026-11-19",
     "note": "Public (not signed in) search of the Regional Preferred EPO/PPO Network for the specialty \"Pediatrics\" within 10 miles of New Brunswick, NJ: 307 results, of which 298 doctor listings (MD or DO) were read. Listings do not show the doctor's own NPI; the NPI on a profile belongs to the practice location. A listing was matched to a registry pediatrician only when first name, last name, street number and street, and ZIP all agree. Name matches at a different address were left unknown. Checked for the 66 pediatricians within 5 miles of ZIP 08901."
+  },
+  {
+    "id": "horizon-finder-pediatricians",
+    "type": "insurer-directory",
+    "title": "Doctor & Hospital Finder: Pediatrician search by plan",
+    "publisher": "Horizon Blue Cross Blue Shield of New Jersey",
+    "url": "https://www.horizonblue.com/doctorfinder",
+    "retrievedOn": "2026-11-19",
+    "note": "Public (not signed in) search for the specialty \"Pediatrician\" within 5 miles of New Brunswick, NJ, run once with the plan set to \"OMNIA\" and once with \"ADVANTAGE EPO\": 190 listings each, all pages read. Each listing shows the doctor's NPI, the plan (In \"OMNIA\" Plan) and, for OMNIA, the tier. Doctors were matched to the registry by NPI. Checked for the 66 pediatricians within 5 miles of ZIP 08901; a doctor not listed is left unknown because the search covers one location per listing."
   }
 ]

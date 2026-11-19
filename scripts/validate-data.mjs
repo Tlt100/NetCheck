@@ -197,6 +197,9 @@ for (const s of clinicianStatus) {
   if (!npis.has(s.npi)) fail("clinician-status", key, "unknown npi");
   if (!STATUS_VALUES.includes(s.status))
     fail("clinician-status", key, 'status must be "in-network" or "out-of-network"; leave the record out if unknown');
+  if (s.tier && networkById.get(s.networkId)?.tiered !== true)
+    fail("clinician-status", key, "tier set on a network that is not tiered");
+  if (s.tier && s.status !== "in-network") fail("clinician-status", key, "tier only applies to in-network records");
   needSource("clinician-status", key, s.sourceId);
   needDate("clinician-status", key, "lastChecked", s.lastChecked);
   if (s.mappingId) {

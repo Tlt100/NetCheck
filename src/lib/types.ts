@@ -227,6 +227,8 @@ export interface ClinicianStatusRecord {
   networkId: string;
   npi: string;
   status: NetworkStatusValue;
+  /** For tiered networks only, e.g. "Tier 1". */
+  tier?: string;
   sourceId: string;
   mappingId?: string;
   lastChecked: IsoDate;
