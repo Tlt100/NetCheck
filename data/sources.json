@@ -122,7 +122,7 @@
     "title": "Doctor & Hospital Finder: Pediatrician search within 25 miles of Monroe Township",
     "publisher": "Horizon Blue Cross Blue Shield of New Jersey",
     "url": "https://www.horizonblue.com/doctorfinder",
-    "retrievedOn": "2026-11-19",
-    "note": "Public (not signed in) search for the specialty \"Pediatrician\" within 25 miles of Monroe Township, NJ (a point within 21 miles of every NetCheck pediatric office), with the plan set to \"OMNIA\": 814 listings sorted by tier, then distance. In progress: pages 1-11 and 14-26 of 82 have been read so far (230 listings, all Tier 1). Each listing shows the doctor's NPI; doctors were matched to the registry by NPI. A doctor not yet found stays unknown."
+    "retrievedOn": "2026-11-20",
+    "note": "Public (not signed in) search for the specialty \"Pediatrician\" within 25 miles of Monroe Township, NJ (a point within 21 miles of every NetCheck pediatric office), checked 2026-11-19 and 2026-11-20. OMNIA: 814 listings on 82 pages sorted by tier, then distance; 81 pages read (785 listings). Page 13 would not load and was not read. Each listing shows the doctor's NPI and OMNIA tier; doctors were matched to the registry by NPI. A doctor not found stays unknown. ADVANTAGE EPO: the same search with the plan set to \"ADVANTAGE EPO\", 814 listings on 82 pages, all pages read (814 listings)."
   }
 ]
