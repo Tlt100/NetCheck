@@ -24,9 +24,10 @@ in its network.
   Star Rating from the same CMS file as its address.
 - **Pediatricians (in progress):** pediatric offices near a ZIP code, the
   doctors at each address, and a live Google Maps rating per office. Network
-  status has been checked for the 66 pediatricians within 5 miles of ZIP
-  08901 (Horizon OMNIA with tiers, Horizon Advantage EPO, AmeriHealth Regional
-  Preferred); every other doctor shows as "not yet verified".
+  status has been checked for all 287 pediatricians against Horizon OMNIA
+  (with tiers), Horizon Advantage EPO and AmeriHealth Regional Preferred
+  directory listings; a doctor not found in a directory shows as "not yet
+  verified", never as out-of-network.
 
 NetCheck informs; the user decides. It does not sell insurance, enroll anyone,
 recommend a plan, or give legal, financial or medical advice. It asks only for

@@ -104,8 +104,8 @@
     "title": "Find providers: Regional Preferred EPO/PPO Network, Pediatrics",
     "publisher": "AmeriHealth",
     "url": "https://www.amerihealth.com/get-care/find-doctors-and-hospitals/individual-plans.html",
-    "retrievedOn": "2026-11-19",
-    "note": "Public (not signed in) search of the Regional Preferred EPO/PPO Network for the specialty \"Pediatrics\" within 10 miles of New Brunswick, NJ: 307 results, of which 298 doctor listings (MD or DO) were read. Listings do not show the doctor's own NPI; the NPI on a profile belongs to the practice location. A listing was matched to a registry pediatrician only when first name, last name, street number and street, and ZIP all agree. Name matches at a different address were left unknown. Checked for the 66 pediatricians within 5 miles of ZIP 08901."
+    "retrievedOn": "2026-11-20",
+    "note": "Public (not signed in) search of the Regional Preferred EPO/PPO Network for the specialty \"Pediatrics\". The directory shows at most 300 results per search, so the area was covered by 5-mile searches around 13 ZIP codes (08820, 08850, 08609, 08859, 08536, 08824, 08857, 07080, 08540, 08620, 08534, 07001, 07747) chosen so every NetCheck pediatric office is within 4.5 miles of one; every page of each was read, 821 distinct doctor listings in all, plus the earlier 10-mile New Brunswick search. Listings do not show the doctor's own NPI (a profile's NPI belongs to the practice location), so a listing was matched to a registry pediatrician only when first name, last name, street number and street, and ZIP all agree. Name matches at a different address were left unknown."
   },
   {
     "id": "horizon-finder-pediatricians",

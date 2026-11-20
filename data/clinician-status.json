@@ -3102,5 +3102,572 @@
     "mappingId": "horizon-finder-advantage-epo",
     "lastChecked": "2026-11-20",
     "note": "Listed by NPI in the Pediatrician search with the plan set to \"ADVANTAGE EPO\"."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1033163928",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Alon E. Baker, 2133 Highway 33, Hamilton Square, NJ 08690\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1033406673",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"TEMILOLA A. SOPEJU, 641 Us Highway 130, Hamilton, NJ 08691\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1063510014",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Hossam S. Radwan, 511 New Brunswick Ave, Perth Amboy, NJ 08861\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1093205023",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Harsh H. Patel, 1140 Us Highway 130 Ste 4, Robbinsville, NJ 08691\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1104145010",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Farhana Abdul Basit, 1802 Oak Tree Rd Ste 101, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1114970878",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Sonya Boor, 2133 Highway 33, Hamilton Square, NJ 08690\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1124041538",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Suzanne M. Palinski, 321 N Warren St, Trenton, NJ 08618\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1134172893",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Marta L. Buchbinder, 3 Hamilton Health Pl Ste A, Hamilton, NJ 08690\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1134757594",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Hadia Asif, 65 James St 2nd Fl, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1144257502",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Kendra W. Sirolly, 281 Witherspoon St Ste 200, Princeton, NJ 08540\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1144588674",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"April D. Graham, 45 Pearl St, Metuchen, NJ 08840\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1154416410",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Yingxue Liu-Lee, 557 Cranbury Rd Ste 7, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1174084172",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Roma Chokshi, 1500 Saint Georges Ave Ste G, Avenel, NJ 07001\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1184003634",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Khushbu Shah, 3 Hamilton Health Pl Ste A, Hamilton, NJ 08690\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1215045562",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Natverlal M. Patel, 751 Convery Blvd Ste G, Perth Amboy, NJ 08861\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1225055775",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Suhaila S. Hussain, 512 Hamilton Ave, Trenton, NJ 08609\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1255483012",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Milan R. Kapadia, 1 Nami Ln Ste 8, Hamilton, NJ 08619\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1255528618",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Mamta B. Gupta, 27 Wills Way, Piscataway, NJ 08854\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1285785246",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Salwa M. Mikhail, 85 Brunswick Woods Dr, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1295716157",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Rao V. Vinnakota, 2013 Park Ave, South Plainfield, NJ 07080\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1306226709",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Alyssa Rios, 215 Amboy Ave, Metuchen, NJ 08840\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1356389407",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Alla Lokshina, 3887 Highway 516 Ste 1B, Old Bridge, NJ 08857\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1356395594",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Julie Halvorsen, 132 Franklin Corner Rd, Lawrenceville, NJ 08648\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1376608042",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Shao Zheng, 666 Plainsboro Rd Ste 1H, Plainsboro, NJ 08536\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1386664332",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Belen P. Flores, 1230 Whitehorse Mercerville Rd, Hamilton, NJ 08619\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1386754471",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Maria Obleada, 1613 Princeton Ave, Lawrenceville, NJ 08648\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1396788980",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Gaurang R. Patel, 1500 Saint Georges Ave Ste G, Avenel, NJ 07001\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1407920606",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Subrahmanyam Ganti, 906 Oak Tree Ave Ste E, South Plainfield, NJ 07080\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1437536349",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Shadwa E. Hassan, 14 Snowhill St Ste A, Spotswood, NJ 08884\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1457771339",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Dara L. Rajeshwar, 196 Princeton Hightstown Rd, Princeton Junction, NJ 08550\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1477703239",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Kalpana Kumari, 904 Oak Tree Ave Ste P, South Plainfield, NJ 07080\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1497714398",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Thomas Genco, 395 Ridge Rd Ste 6, Dayton, NJ 08810\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1497784920",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Muhammad Siddique, 415 Avenel St, Avenel, NJ 07001\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1508810268",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Sujatha Shankar, 77 Brunswick Woods Dr, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1528225646",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Namrata P. Reddy, 1802 Oak Tree Rd Ste 101, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1538102413",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Madhu A. Goyal, 2509 Park Ave Ste 1A, South Plainfield, NJ 07080\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1548206048",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Bobak Bidabadi, 3086 State Route 27 Ste 8, Kendall Park, NJ 08824\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1548552995",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Elizabeth A. Nelson, 395 Ridge Rd Ste 6, Dayton, NJ 08810\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1578143905",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Daniela Castano, 45 Pearl St, Metuchen, NJ 08840\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1629120472",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Joel M. Krauss, 1 Plainsboro Rd, Plainsboro, NJ 08536\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1639154180",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Patricia E. Manfredonia, 3 Athens Ave, South Amboy, NJ 08879\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1649666165",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Bahareh Shanehsaz, 196 Princeton Hightstown Rd, Princeton Junction, NJ 08550\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1659302578",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Nutan S. Nadkarni, 3826 Park Ave Ste 10, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1659572311",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Ewa M. Grochowalska, 300 Perrine Rd Ste 331, Old Bridge, NJ 08857\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1669541264",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Sohaila Khan, 11 Burlew Pl, Parlin, NJ 08859\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1679831739",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Maria B. Kim, 1950 State Route 27, North Brunswick, NJ 08902\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1699984583",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Sapna S. Nambiar, 521 Green St 2nd Fl, Iselin, NJ 08830\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1700830676",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Laura K. Brandspiegel, 2133 Highway 33, Hamilton Square, NJ 08690\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1710341185",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Janki M. Kapadia, 1 Nami Ln Ste 8, Hamilton, NJ 08619\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1730109919",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Parvin Alizadeh, 750 Brunswick Ave, Trenton, NJ 08638\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1750467049",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Dinorah Calderon, 275 Hobart St, Perth Amboy, NJ 08861\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1780174797",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Jaini H. Patel, 1140 Us Highway 130 Ste 4, Robbinsville, NJ 08691\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1780634626",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Robert S. Salston, 100 Perrine Rd, Old Bridge, NJ 08857\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1801582630",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Neal Somwaru, 65 James St, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1801843297",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Ramarao S. Gajula, 1500 Saint Georges Ave Ste G, Avenel, NJ 07001\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1801981386",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Nimisha J. Shukla, 1802 Oak Tree Rd Ste 101, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1811124746",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Eugene Shapiro, 132 Franklin Corner Rd, Lawrenceville, NJ 08648\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1831116656",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Paula G. Zollner, 281 Witherspoon St Ste 200, Princeton, NJ 08540\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1881275733",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Narissa Williams, 196 Princeton Hightstown Rd, Princeton Junction, NJ 08550\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1912945122",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Patricia X. Gao, 98 James St Ste 100, Edison, NJ 08820\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1962659953",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Charles E. Flores, 1230 Whitehorse Mercerville Rd, Hamilton, NJ 08619\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1972244283",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Amy Parikh, 610 Cranbury Rd, East Brunswick, NJ 08816\". Matched by name and practice address."
+  },
+  {
+    "networkId": "amerihealth-regional-preferred",
+    "npi": "1982773461",
+    "status": "in-network",
+    "sourceId": "amerihealth-provider-finder-pediatrics",
+    "mappingId": "amerihealth-finder-ppo-epo-regional-preferred",
+    "lastChecked": "2026-11-20",
+    "note": "Listed in the Regional Preferred EPO/PPO Network pediatrics search as \"Louis J. Tesoro, 281 Witherspoon St Ste 200, Princeton, NJ 08540\". Matched by name and practice address."
   }
 ]
