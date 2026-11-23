@@ -11,16 +11,11 @@ export default function Home() {
         See which plans your local hospitals actually take.
       </h1>
       <p className={styles.lead}>
-        Enter a New Jersey ZIP code. NetCheck lists the individual health
-        plans sold in that area and shows which nearby hospitals are in each
-        plan&rsquo;s network.
+        Enter a New Jersey ZIP code to see which individual health plans your nearby hospitals and
+        pediatricians take.
       </p>
 
       <ZipForm />
-
-      <p className={styles.alt}>
-        Looking for a children&rsquo;s doctor? <Link href="/pediatricians">Find pediatricians near you</Link>
-      </p>
 
       <p className={styles.notice} role="note">
         Network data can change. Confirm with the plan and the hospital before enrolling. NetCheck

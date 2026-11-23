@@ -4,6 +4,7 @@ import { Suspense } from "react";
 
 import { AreaMap } from "@/components/AreaMap";
 import { FilterForm } from "@/components/FilterForm";
+import { SearchTabs } from "@/components/SearchTabs";
 import { PlanCard } from "@/components/PlanCard";
 import { PlanTypeLegend } from "@/components/PlanTypeLegend";
 import { ZipForm } from "@/components/ZipForm";
@@ -110,6 +111,8 @@ async function Results({ searchParams }: { searchParams: SearchParams }) {
           miles
         </p>
       </header>
+
+      <SearchTabs active="hospitals" query={query} />
 
       <ZipForm zip={zip.zip} radius={radius} compact />
 

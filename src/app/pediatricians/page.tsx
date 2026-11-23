@@ -3,11 +3,13 @@ import Link from "next/link";
 import { Suspense } from "react";
 
 import { AreaMap } from "@/components/AreaMap";
+import { SearchTabs } from "@/components/SearchTabs";
+import { ZipForm } from "@/components/ZipForm";
 import { repository } from "@/lib/data";
 import { countDoctorsForPlan, findNearbyOffices, officeLabel } from "@/lib/doctors";
 import { searchQuery } from "@/lib/filters";
 import { formatMiles } from "@/lib/format";
-import { isZipFormat, parseRadius, RADIUS_OPTIONS } from "@/lib/geo";
+import { isZipFormat, parseRadius } from "@/lib/geo";
 import { firstValue, type SearchParams } from "@/lib/search";
 import styles from "./pediatricians.module.css";
 
@@ -23,45 +25,6 @@ export default function PediatriciansPage({ searchParams }: { searchParams: Sear
   );
 }
 
-function SearchForm({ zip, radius, error }: { zip: string; radius: number; error?: string }) {
-  return (
-    <form action="/pediatricians" method="get" className={styles.form}>
-      <div className={styles.field}>
-        <label htmlFor="ped-zip">ZIP code</label>
-        <input
-          id="ped-zip"
-          name="zip"
-          inputMode="numeric"
-          pattern="[0-9]{5}"
-          maxLength={5}
-          required
-          defaultValue={zip}
-          aria-invalid={error ? true : undefined}
-          aria-describedby={error ? "ped-zip-error" : undefined}
-        />
-      </div>
-      <div className={styles.field}>
-        <label htmlFor="ped-radius">Within</label>
-        <select id="ped-radius" name="radius" defaultValue={String(radius)}>
-          {RADIUS_OPTIONS.map((m) => (
-            <option key={m} value={m}>
-              {m} miles
-            </option>
-          ))}
-        </select>
-      </div>
-      <button type="submit" className={styles.button}>
-        Find pediatricians
-      </button>
-      {error && (
-        <p id="ped-zip-error" role="alert" className={styles.error}>
-          {error}
-        </p>
-      )}
-    </form>
-  );
-}
-
 async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams;
   const zipInput = (firstValue(params.zip) ?? "").trim();
@@ -72,7 +35,7 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
       <>
         <h1>Find pediatricians</h1>
         <p className={styles.muted}>Middlesex and Mercer counties, New Jersey.</p>
-        <SearchForm zip="" radius={radius} />
+        <ZipForm radius={radius} find="pediatricians" />
       </>
     );
   }
@@ -80,7 +43,7 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
     return (
       <>
         <h1>Find pediatricians</h1>
-        <SearchForm zip={zipInput} radius={radius} error="Enter a 5-digit ZIP code, like 08901." />
+        <ZipForm zip={zipInput} radius={radius} find="pediatricians" error="Enter a 5-digit ZIP code, like 08901." />
       </>
     );
   }
@@ -90,7 +53,7 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
       <>
         <h1>ZIP code {zipInput} is not covered yet</h1>
         <p>NetCheck covers ZIP codes in Middlesex and Mercer counties, New Jersey.</p>
-        <SearchForm zip={zipInput} radius={radius} />
+        <ZipForm zip={zipInput} radius={radius} find="pediatricians" />
       </>
     );
   }
@@ -118,7 +81,9 @@ async function Pediatricians({ searchParams }: { searchParams: SearchParams }) {
         </p>
       </header>
 
-      <SearchForm zip={zip.zip} radius={radius} />
+      <SearchTabs active="pediatricians" query={query} />
+
+      <ZipForm zip={zip.zip} radius={radius} find="pediatricians" compact />
 
       <p className={styles.notice} role="note">
         <strong>Only some pediatricians have been checked so far.</strong> &ldquo;Not yet

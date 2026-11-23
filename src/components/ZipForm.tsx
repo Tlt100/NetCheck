@@ -7,19 +7,28 @@ interface Props {
   /** Error text for the ZIP field, shown and announced to screen readers. */
   error?: string;
   compact?: boolean;
+  /** What the search looks for; the form lets the visitor change it. */
+  find?: "hospitals" | "pediatricians";
 }
 
 /**
  * A plain GET form: it works without JavaScript and keeps the ZIP in the
  * page address only. Nothing is saved.
  */
-export function ZipForm({ zip = "", radius = DEFAULT_RADIUS, error, compact }: Props) {
+export function ZipForm({ zip = "", radius = DEFAULT_RADIUS, error, compact, find = "hospitals" }: Props) {
   return (
     <form
-      action="/results"
+      action="/find"
       method="get"
       className={compact ? `${styles.form} ${styles.compact}` : styles.form}
     >
+      <div className={styles.field}>
+        <label htmlFor="find">Looking for</label>
+        <select id="find" name="find" defaultValue={find}>
+          <option value="hospitals">Hospitals</option>
+          <option value="pediatricians">Pediatricians</option>
+        </select>
+      </div>
       <div className={styles.field}>
         <label htmlFor="zip">ZIP code</label>
         <input
@@ -38,7 +47,7 @@ export function ZipForm({ zip = "", radius = DEFAULT_RADIUS, error, compact }: P
         />
       </div>
       <div className={styles.field}>
-        <label htmlFor="radius">Hospitals within</label>
+        <label htmlFor="radius">Within</label>
         <select id="radius" name="radius" defaultValue={String(radius)}>
           {RADIUS_OPTIONS.map((miles) => (
             <option key={miles} value={miles}>
@@ -48,7 +57,7 @@ export function ZipForm({ zip = "", radius = DEFAULT_RADIUS, error, compact }: P
         </select>
       </div>
       <button type="submit" className={styles.button}>
-        {compact ? "Update" : "Check plans"}
+        {compact ? "Update" : "Search"}
       </button>
       {error ? (
         <p id="zip-error" role="alert" className={styles.error}>
